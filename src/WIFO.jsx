@@ -88,6 +88,14 @@ const WIFO = () => {
     return nameMatch && seasonSelected && moonSelected && resourceSelected
   })
 
+  const getFooter = () => {
+    return (
+      <div className="footer">
+        <a href="https://github.com/nerdytoolbox/witch-of-fern-island-map/issues/new?template=ISSUE_TEMPLATE.md">Report issues / Feature requests</a>
+      </div>
+    )
+  }
+
   return (
     <Hub title="Witch of Fern Island - Resource Map">
       <div className="app-container" style={{ justifyContent: isBigMap ? "flex-start" : "center" }}>
@@ -114,20 +122,15 @@ const WIFO = () => {
                    onClick={() => handleSeasonToggle("frost")} />
             </div>
             <div className="settings-box">
-              <img src={imagePath + "Herb.png"} alt="Herb" className="setting-icon"
-                   style={{opacity: resourceSettings.herb ? 1 : 0.3}}
+              <img src={imagePath + "Herb.png"} alt="Herb" className={`setting-icon resource-icon${resourceSettings.herb ? "-selected" : ""}`}
                    onClick={() => handleResourceToggle("herb")}/>
-              <img src={imagePath + "Mushroom.png"} alt="Mushroom" className="setting-icon"
-                   style={{opacity: resourceSettings.mushroom ? 1 : 0.3}}
+              <img src={imagePath + "Mushroom.png"} alt="Mushroom" className={`setting-icon resource-icon${resourceSettings.mushroom ? "-selected" : ""}`}
                    onClick={() => handleResourceToggle("mushroom")}/>
-              <img src={imagePath + "Flower.png"} alt="Flower" className="setting-icon"
-                   style={{opacity: resourceSettings.flower ? 1 : 0.3}}
+              <img src={imagePath + "Flower.png"} alt="Flower" className={`setting-icon resource-icon${resourceSettings.flower ? "-selected" : ""}`}
                    onClick={() => handleResourceToggle("flower")}/>
-              <img src={imagePath + "Lumber.png"} alt="Ore&Lumber" className="setting-icon"
-                   style={{opacity: resourceSettings.oreLumber ? 1 : 0.3}}
+              <img src={imagePath + "Lumber.png"} alt="Ore&Lumber" className={`setting-icon resource-icon${resourceSettings.oreLumber ? "-selected" : ""}`}
                    onClick={() => handleResourceToggle("oreLumber")}/>
-              <img src={imagePath + "MagicalChest.png"} alt="Magical Chest" className="setting-icon"
-                   style={{opacity: resourceSettings.magicalChest ? 1 : 0.3}}
+              <img src={imagePath + "MagicalChest.png"} alt="Magical Chest" className={`setting-icon resource-icon${resourceSettings.magicalChest ? "-selected" : ""}`}
                    onClick={() => handleResourceToggle("magicalChest")}/>
             </div>
             <div className="settings-box">
@@ -164,14 +167,12 @@ const WIFO = () => {
                        onChange={handleFilterTextChange}/>
                 <div className="hide-on-mobile">
                   <div><input type="checkbox" checked={isBigMap} onClick={handleMapToggle}/> Big Map</div>
-                  <div><input type="checkbox" checked={showDevTools} onClick={handleDevToolsToggle}/> Show map position
-                    on
-                    click
-                  </div>
+                  <div><input type="checkbox" checked={showDevTools} onClick={handleDevToolsToggle}/> Show map position on click</div>
                 </div>
               </div>
             </div>
           </div>
+          {getFooter()}
         </div>
         <div className={isBigMap ? " image-scroll-container-large" : " image-scroll-container-small"}>
           <img
