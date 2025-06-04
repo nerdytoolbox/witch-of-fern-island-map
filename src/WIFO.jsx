@@ -175,13 +175,15 @@ const WIFO = () => {
           {getFooter()}
         </div>
         <div className={isBigMap ? " image-scroll-container-large" : " image-scroll-container-small"}>
-          <img
-            src={imagePath + "Full_Island_Light_Map.png"}
-            ref={imageRef}
-            alt="Big Visual"
-            onClick={handleMouseClick}
-            className={isBigMap ? "map large" : "map small"}
-          />
+          <div className={isBigMap ? "map-background large" : "map-background small"}>
+            <img
+              src={imagePath + "Full_Island_Light_Map.png"}
+              ref={imageRef}
+              alt="Big Visual"
+              onClick={handleMouseClick}
+              className={isBigMap ? "map large" : "map small"}
+            />
+          </div>
 
           {/*Click on map to show position in percentage*/}
           {showDevTools && position.x !== null && position.y !== null && (

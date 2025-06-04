@@ -66,6 +66,10 @@
     width: 2808px;
 }
 
+.map-background {
+    background-color: white;
+}
+
 .map {
     position: relative;
     display: block;
