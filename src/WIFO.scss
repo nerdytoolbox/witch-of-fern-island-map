@@ -1,0 +1,177 @@
+@use "nerdy-lib/src/mixins" as mixins;
+
+.tool-hub {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.tool-content {
+    overflow: hidden !important;
+}
+
+.settings-header {
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    height: 18rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include mixins.desktop {
+        top: 5rem;
+        height: 13rem;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        background-color: var(--eerie-black1);
+    }
+
+    .title {
+        margin-left: 1rem;
+    }
+
+    .resource-settings {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
+        @include mixins.desktop {
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .resource-setting {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            height: 100%;
+            padding: 0.5rem 1rem;
+
+            .setting-icon {
+                height: 2rem;
+                cursor: pointer;
+                margin: 0 0.2rem;
+
+                @include mixins.desktop {
+                    height: 2.5rem;
+                    margin: 0 0.4rem;
+                }
+            }
+
+            .resource-icon {
+                filter: brightness(2.2);
+
+                @media (prefers-color-scheme: dark) {
+                    filter: brightness(0.8);
+                }
+            }
+
+            .resource-icon-selected {
+                filter: brightness(1);
+
+                @media (prefers-color-scheme: dark) {
+                    filter: brightness(4);
+                }
+            }
+        }
+    }
+
+    .settings-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 2.5rem;
+
+        @include mixins.mobile {
+            margin-top: 0.5rem;
+        }
+
+        .hide-on-mobile {
+            margin-left: 0.5rem;
+
+            @include mixins.mobile {
+                display: none;
+            }
+        }
+    }
+
+}
+
+.image-scroll-container-small {
+    position: absolute;
+    top: 22rem; /* Same as hub + header height */
+    left: 0;
+    width: 100vw;
+    height: auto;
+
+    @include mixins.desktop {
+        top: 18rem;
+        height: 800px;
+        width: 780px;
+    }
+}
+
+.image-scroll-container-large {
+    position: absolute;
+    top: 22rem; /* Same as hub + header height */
+    left: 0;
+    height: 2880px;
+    width: 2808px;
+
+    @include mixins.desktop {
+        top: 18rem;
+    }
+}
+
+.map-background {
+    background-color: white;
+}
+
+.map {
+    position: relative;
+    display: block;
+    opacity: 0.5;
+}
+
+.large {
+    width: 2808px;
+    height: 2880px;
+}
+
+.small {
+    width: 100vw;
+    height: auto;
+
+    @include mixins.desktop {
+        width: 780px;
+        height: 800px;
+    }
+}
+
+.img-icon {
+    height: 0.5rem;
+    position: absolute;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+
+    @include mixins.desktop {
+        height: 1rem;
+    }
+}
+
+.img-icon-large {
+    height: 2rem;
+    position: absolute;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}

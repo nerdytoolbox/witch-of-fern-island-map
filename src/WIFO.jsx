@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 
-import './WIFO.css'
+import './WIFO.scss'
 import { loadResources } from "./util/loadResources";
-import { Hub } from "nerdy-lib";
+import { Hub, Title, TextInput } from "nerdy-lib";
 
 const imagePath = "./wifo/images/"
 
@@ -90,18 +90,19 @@ const WIFO = () => {
 
   const getFooter = () => {
     return (
-      <div className="footer">
+      <div className="tool-footer">
         <a href="https://github.com/nerdytoolbox/witch-of-fern-island-map/issues/new?template=ISSUE_TEMPLATE.md">Report issues / Feature requests</a>
       </div>
     )
   }
 
   return (
-    <Hub title="Witch of Fern Island - Resource Map">
+    <Hub>
       <div className="app-container" style={{ justifyContent: isBigMap ? "flex-start" : "center" }}>
         <div className="settings-header">
-          <div className="settings-header-top">
-            <div className="settings-box">
+          <Title icon="witchOfFernIslandThumbnail.png" text="Witch of Fern Island Resource Map" />
+          <div className="resource-settings">
+            <div className="resource-setting">
               <img src={imagePath + "Bloom.png"} alt="Bloom" className="setting-icon"
                    style={{opacity: selectedSeason === "bloom" || selectedSeason === "none" ? 1 : 0.3}}
                    onClick={() => handleSeasonToggle("bloom")} />
@@ -121,7 +122,7 @@ const WIFO = () => {
                    style={{opacity: selectedSeason === "frost" || selectedSeason === "none" ? 1 : 0.3}}
                    onClick={() => handleSeasonToggle("frost")} />
             </div>
-            <div className="settings-box">
+            <div className="resource-setting">
               <img src={imagePath + "Herb.png"} alt="Herb" className={`setting-icon resource-icon${resourceSettings.herb ? "-selected" : ""}`}
                    onClick={() => handleResourceToggle("herb")}/>
               <img src={imagePath + "Mushroom.png"} alt="Mushroom" className={`setting-icon resource-icon${resourceSettings.mushroom ? "-selected" : ""}`}
@@ -133,7 +134,7 @@ const WIFO = () => {
               <img src={imagePath + "MagicalChest.png"} alt="Magical Chest" className={`setting-icon resource-icon${resourceSettings.magicalChest ? "-selected" : ""}`}
                    onClick={() => handleResourceToggle("magicalChest")}/>
             </div>
-            <div className="settings-box">
+            <div className="resource-setting">
               <img src={imagePath + "NewMoon.png"} alt="New Moon" className="setting-icon"
                    style={{opacity: selectedMoon === "newMoon" || selectedMoon === "none" ? 1 : 0.3}}
                    onClick={() => handleMoonToggle("newMoon")} />
@@ -160,16 +161,11 @@ const WIFO = () => {
                    onClick={() => handleMoonToggle("waningCrescent")} />
             </div>
           </div>
-          <div className="settings-header-bottom">
-            <div className="settings-box">
-              <div className="setting-option">
-                <input className="search-input" type="search" placeholder="Search..." value={filterText}
-                       onChange={handleFilterTextChange}/>
-                <div className="hide-on-mobile">
-                  <div><input type="checkbox" checked={isBigMap} onClick={handleMapToggle}/> Big Map</div>
-                  <div><input type="checkbox" checked={showDevTools} onClick={handleDevToolsToggle}/> Show map position on click</div>
-                </div>
-              </div>
+          <div className="settings-box">
+            <TextInput placeholder="Search..." value={filterText} onChange={handleFilterTextChange} />
+            <div className="hide-on-mobile">
+              <div><input type="checkbox" checked={isBigMap} onClick={handleMapToggle}/> Big Map</div>
+              <div><input type="checkbox" checked={showDevTools} onClick={handleDevToolsToggle}/> Show map position on click</div>
             </div>
           </div>
           {getFooter()}
