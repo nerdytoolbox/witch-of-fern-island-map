@@ -116,6 +116,10 @@ const WIFO = () => {
     return nameMatch && seasonSelected && moonSelected && resourceSelected
   })
 
+  const flowerBeeData = filteredData.filter(resource => resource.flowerBee.length > 0)
+
+  console.log(flowerBeeData)
+
   const getFooter = () => {
     return (
       <div className="tool-footer">
@@ -263,6 +267,28 @@ const WIFO = () => {
               {iconModalInfo.seasons.map(season => <img key={season} className="modal-icon-img" src={imagePath + season +  ".png"} alt={season} style={{ height: isBigMap ? "20px" : "10px"}} />)}
               {iconModalInfo.name}
               <img src={imagePath + iconModalInfo.moonPhase + ".png"} className="modal-icon-img" alt={iconModalInfo.moonPhase} style={{ height: isBigMap ? "20px" : "10px"}} />
+            </div>
+          )}
+
+          {flowerBeeData.length > 0 && (
+            <div
+              className="flower-bee-info"
+              style={{
+                position: 'absolute',
+                top: "1%",
+                left: "1%",
+                fontSize: isBigMap ? '1.2rem' : '0.6rem',
+                pointerEvents: 'none',
+                zIndex: 8,
+              }}
+            >
+              <span className="flower-bee-title">Flower Bee</span>
+              {flowerBeeData.map(seed => (
+                <div key={seed.name} className="flower-bee-seed">
+                  {seed.name}
+                  {seed.flowerBee.map(season => <img key={season} src={imagePath + season +  ".png"} alt={season} style={{ height: isBigMap ? "20px" : "10px"}} />)}
+                </div>
+              ))}
             </div>
           )}
         </div>

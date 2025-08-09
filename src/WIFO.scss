@@ -185,8 +185,23 @@
     color: black;
     border: 1px solid black;
     border-radius: 0.5rem;
+
+    .modal-icon-img {
+        height: 10px;
+    }
 }
 
-.modal-icon-img {
-    height: 10px;
+.flower-bee-info {
+    display: flex;
+    flex-direction: column;
+    color: black;
+
+    .flower-bee-title {
+        font-weight: bold;
+    }
+
+    .flower-bee-seed {
+        display: flex;
+        gap: 0.1rem;
+    }
 }
