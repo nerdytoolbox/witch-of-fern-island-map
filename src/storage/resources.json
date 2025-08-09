@@ -2,8 +2,8 @@
   {
     "name": "Amethyst Deceiver",
     "type": "mushroom",
-    "seasons": ["bask", "harvest", "frost"],
-    "moonPhase": "waningGibbous",
+    "seasons": ["Bask", "Harvest", "Frost"],
+    "moonPhase": "WaningGibbous",
     "image": "AmethystDeceiver.png",
     "top": [28.4, 68.4],
     "left": [44.7, 70.8]
@@ -11,8 +11,8 @@
   {
     "name": "Bleeding Tooth",
     "type": "mushroom",
-    "seasons": ["harvest", "reverie", "frost"],
-    "moonPhase": "lastQuarter",
+    "seasons": ["Harvest", "Reverie", "Frost"],
+    "moonPhase": "LastQuarter",
     "image": "BleedingTooth.png",
     "top": [20.5, 70, 73.2, 80.4],
     "left": [38, 60.7, 74, 80.4]
@@ -20,8 +20,8 @@
   {
     "name": "Boletus",
     "type": "mushroom",
-    "seasons": ["bloom", "storm", "harvest", "reverie"],
-    "moonPhase": "fullMoon",
+    "seasons": ["Bloom", "Storm", "Harvest", "Reverie"],
+    "moonPhase": "FullMoon",
     "image": "Boletus.png",
     "top": [12.3, 37.5, 51, 52.5, 57.7, 60.1, 67.7, 69.6],
     "left": [35.5, 68.5, 62.2, 63.3, 67.2, 77.2, 70, 67.6]
@@ -29,8 +29,8 @@
   {
     "name": "Crusty Sweetcup",
     "type": "mushroom",
-    "seasons": ["bloom", "storm", "bask"],
-    "moonPhase": "waxingCrescent",
+    "seasons": ["Bloom", "Storm", "Bask"],
+    "moonPhase": "WaxingCrescent",
     "image": "CrustySweetcup.png",
     "top": [71.3, 79.3, 17.5, 8],
     "left": [65.7, 67.7, 41.3, 39.2]
@@ -38,8 +38,8 @@
   {
     "name": "Cuflowrelle",
     "type": "mushroom",
-    "seasons": ["storm", "bask", "harvest"],
-    "moonPhase": "waningGibbous",
+    "seasons": ["Storm", "Bask", "Harvest"],
+    "moonPhase": "WaningGibbous",
     "image": "Cuflowrelle.png",
     "top": [12.2, 23.9, 29.5, 34.4, 50.2, 51.5, 61.2, 69.5, 69.2],
     "left": [38.7, 48.7, 56.3, 38.7, 71.7, 66.8, 75.2, 63, 65.5]
@@ -47,8 +47,8 @@
   {
     "name": "Earthstar",
     "type": "mushroom",
-    "seasons": ["bask", "frost"],
-    "moonPhase": "firstQuarter",
+    "seasons": ["Bask", "Frost"],
+    "moonPhase": "FirstQuarter",
     "image": "Earthstar.png",
     "top": [69, 41, 37.5, 4.5, 13.2],
     "left": [72, 53.5, 59.8, 38.5, 38.5]
@@ -56,8 +56,8 @@
   {
     "name": "Evening Lampshade",
     "type": "mushroom",
-    "seasons": ["bask", "reverie"],
-    "moonPhase": "waningCrescent",
+    "seasons": ["Bask", "Reverie"],
+    "moonPhase": "WaningCrescent",
     "image": "EveningLampshade.png",
     "top": [13.5, 17.4],
     "left": [49.5, 53.2]
@@ -65,8 +65,8 @@
   {
     "name": "Galactic Trumpet",
     "type": "mushroom",
-    "seasons": ["harvest", "reverie", "frost"],
-    "moonPhase": "newMoon",
+    "seasons": ["Harvest", "Reverie", "Frost"],
+    "moonPhase": "NewMoon",
     "image": "GalacticTrumpet.png",
     "top": [26, 15.8, 8],
     "left": [44.7, 26, 33.7]
@@ -74,8 +74,8 @@
   {
     "name": "Glushroom",
     "type": "mushroom",
-    "seasons": ["bloom", "storm", "frost"],
-    "moonPhase": "lastQuarter",
+    "seasons": ["Bloom", "Storm", "Frost"],
+    "moonPhase": "LastQuarter",
     "image": "Glushroom.png",
     "top": [20.2, 21.8, 21.8, 18.8, 28.7],
     "left": [25.2, 30.8, 34, 58.2, 45.2]
@@ -83,8 +83,8 @@
   {
     "name": "Horn of Plenty",
     "type": "mushroom",
-    "seasons": ["bloom", "bask", "harvest"],
-    "moonPhase": "waxingGibbous",
+    "seasons": ["Bloom", "Bask", "Harvest"],
+    "moonPhase": "WaxingGibbous",
     "image": "HornOfPlenty.png",
     "top": [14.9, 69.1],
     "left": [29.7, 70]
@@ -92,8 +92,8 @@
   {
     "name": "Indigo Milkcap",
     "type": "mushroom",
-    "seasons": ["bloom", "storm", "frost"],
-    "moonPhase": "waxingCrescent",
+    "seasons": ["Bloom", "Storm", "Frost"],
+    "moonPhase": "WaxingCrescent",
     "image": "IndigoMilkcap.png",
     "top": [31.8, 36.5, 31.2, 37.5, 38],
     "left": [50.7, 53.6, 57, 57.1, 59.9]
@@ -101,8 +101,8 @@
   {
     "name": "Kite Mushroom",
     "type": "mushroom",
-    "seasons": ["storm", "bask", "harvest", "reverie"],
-    "moonPhase": "firstQuarter",
+    "seasons": ["Storm", "Bask", "Harvest", "Reverie"],
+    "moonPhase": "FirstQuarter",
     "image": "KiteMushroom.png",
     "top": [9, 23.8, 48.5, 57.5, 62.6, 62.7, 68.3, 71.7, 79.8],
     "left": [35.8, 48.4, 60.5, 66.7, 64.7, 66.6, 72.1, 70.6, 79.6]
@@ -110,8 +110,8 @@
   {
     "name": "Laywer's Wig",
     "type": "mushroom",
-    "seasons": ["storm", "harvest", "reverie"],
-    "moonPhase": "newMoon",
+    "seasons": ["Storm", "Harvest", "Reverie"],
+    "moonPhase": "NewMoon",
     "image": "LawyersWig.png",
     "top": [9.8, 28, 27.2, 40.6, 38, 37, 67.7, 85.7],
     "left": [37, 51.1, 58.9, 54.3, 64.3, 70.6, 70.8, 82.2]
@@ -119,8 +119,8 @@
   {
     "name": "Morel",
     "type": "mushroom",
-    "seasons": ["bloom", "storm", "bask", "harvest", "reverie"],
-    "moonPhase": "waningCrescent",
+    "seasons": ["Bloom", "Storm", "Bask", "Harvest", "Reverie"],
+    "moonPhase": "WaningCrescent",
     "image": "Morel.png",
     "top": [18.2, 29.7, 36.4, 43.1, 52.7, 56.1, 84.9],
     "left": [39.4, 56.6, 58.5, 61.7, 64.6, 65.1, 76]
@@ -128,8 +128,8 @@
   {
     "name": "Octopus Stinkhorn",
     "type": "mushroom",
-    "seasons": ["bask", "reverie", "frost"],
-    "moonPhase": "waningCrescent",
+    "seasons": ["Bask", "Reverie", "Frost"],
+    "moonPhase": "WaningCrescent",
     "image": "OctopusStinkhorn.png",
     "top": [57, 13.7],
     "left": [61.5, 25.7]
@@ -137,8 +137,8 @@
   {
     "name": "Oyster Fungus",
     "type": "mushroom",
-    "seasons": ["bloom", "storm", "bask", "harvest", "reverie", "frost"],
-    "moonPhase": "lastQuarter",
+    "seasons": ["Bloom", "Storm", "Bask", "Harvest", "Reverie", "Frost"],
+    "moonPhase": "LastQuarter",
     "image": "OysterFungus.png",
     "top": [40.6, 60.5, 75, 90.1, 90.6],
     "left": [32.8, 2.9, 47.2, 80.4, 75.1]
@@ -146,8 +146,8 @@
   {
     "name": "Parrot Waxcap",
     "type": "mushroom",
-    "seasons": ["storm", "reverie"],
-    "moonPhase": "waxingCrescent",
+    "seasons": ["Storm", "Reverie"],
+    "moonPhase": "WaxingCrescent",
     "image": "ParrotWaxcap.png",
     "top": [26.4, 12.3, 13, 17.9, 14],
     "left": [28.7, 27.1, 33.3, 36.9, 40.2]
@@ -155,8 +155,8 @@
   {
     "name": "Puffball",
     "type": "mushroom",
-    "seasons": ["bask", "frost"],
-    "moonPhase": "waningGibbous",
+    "seasons": ["Bask", "Frost"],
+    "moonPhase": "WaningGibbous",
     "image": "Puffball.png",
     "top": [31, 52.1, 60, 68.4, 82.8, 83.7],
     "left": [48.3, 46.7, 53.6, 70, 73.5, 78.7]
@@ -164,8 +164,8 @@
   {
     "name": "Scarlet Cup",
     "type": "mushroom",
-    "seasons": ["bloom", "reverie"],
-    "moonPhase": "lastQuarter",
+    "seasons": ["Bloom", "Reverie"],
+    "moonPhase": "LastQuarter",
     "image": "ScarletCup.png",
     "top": [86.8, 32, 40.6, 23, 8.6],
     "left": [81.2, 54.6, 44.5, 37.5, 32.2]
@@ -173,8 +173,8 @@
   {
     "name": "Shiitake",
     "type": "mushroom",
-    "seasons": ["storm", "harvest", "reverie"],
-    "moonPhase": "waxingGibbous",
+    "seasons": ["Storm", "Harvest", "Reverie"],
+    "moonPhase": "WaxingGibbous",
     "image": "Shiitake.png",
     "top": [60.7, 30.7, 36.5, 39.3],
     "left": [3.1, 60.5, 65.9, 64.5]
@@ -182,8 +182,8 @@
   {
     "name": "Speedy Roundhead",
     "type": "mushroom",
-    "seasons": ["harvest", "reverie"],
-    "moonPhase": "fullMoon",
+    "seasons": ["Harvest", "Reverie"],
+    "moonPhase": "FullMoon",
     "image": "SpeedyRoundhead.png",
     "top": [66.7, 72.6, 74.6, 23.8],
     "left": [73.7, 80.2, 76.7, 37.6]
@@ -191,8 +191,8 @@
   {
     "name": "The Eyes of Astra",
     "type": "mushroom",
-    "seasons": ["storm", "reverie", "frost"],
-    "moonPhase": "newMoon",
+    "seasons": ["Storm", "Reverie", "Frost"],
+    "moonPhase": "NewMoon",
     "image": "TheEyesOfAstra.png",
     "top": [13, 26.1, 36.8, 41.2, 65.1, 71.9, 70.7],
     "left": [38.5, 58.4, 67.7, 44.2, 67, 67.2, 79.2]
@@ -200,8 +200,8 @@
   {
     "name": "Toadstool",
     "type": "mushroom",
-    "seasons": ["bloom", "storm", "harvest", "reverie", "frost"],
-    "moonPhase": "firstQuarter",
+    "seasons": ["Bloom", "Storm", "Harvest", "Reverie", "Frost"],
+    "moonPhase": "FirstQuarter",
     "image": "Toadstool.png",
     "top": [9.1, 39.1, 39.8, 36.6, 75.9, 71.1],
     "left": [31.7, 45.9, 59.8, 64.5, 66.9, 72.3]
@@ -209,8 +209,8 @@
   {
     "name": "Truffle",
     "type": "mushroom",
-    "seasons": ["storm", "reverie"],
-    "moonPhase": "newMoon",
+    "seasons": ["Storm", "Reverie"],
+    "moonPhase": "NewMoon",
     "image": "Truffle.png",
     "top": [69.1, 70.7, 68, 10.3],
     "left": [70.8, 51.6, 47.5, 33.3]
@@ -218,8 +218,8 @@
   {
     "name": "Victory Champignon",
     "type": "mushroom",
-    "seasons": ["storm", "bask", "harvest"],
-    "moonPhase": "waxingGibbous",
+    "seasons": ["Storm", "Bask", "Harvest"],
+    "moonPhase": "WaxingGibbous",
     "image": "VictoryChampignon.png",
     "top": [18.5, 43.9, 65.9, 52.7, 49.9, 76.5, 70.2],
     "left": [56.6, 55.7, 49.5, 68.7, 71.7, 65.7, 81.3]
@@ -227,8 +227,8 @@
   {
     "name": "Archangelica",
     "type": "herb",
-    "seasons": ["bask", "harvest", "reverie"],
-    "moonPhase": "newMoon",
+    "seasons": ["Bask", "Harvest", "Reverie"],
+    "moonPhase": "NewMoon",
     "image": "Archangelica.png",
     "top": [14, 40.5, 36, 34, 37.8, 44, 50.5, 58.4, 69.5],
     "left": [28.6, 52.7, 53.9, 60.7, 73.8, 62.7, 61.2, 63.7, 61.1]
@@ -236,8 +236,8 @@
   {
     "name": "Bitter Gentian",
     "type": "herb",
-    "seasons": ["storm", "harvest", "reverie"],
-    "moonPhase": "firstQuarter",
+    "seasons": ["Storm", "Harvest", "Reverie"],
+    "moonPhase": "FirstQuarter",
     "image": "BitterGentian.png",
     "top": [69.1, 71.3, 73.5, 66.5, 66.0, 67.7],
     "left": [68.8, 72.5, 75.2, 72.9, 78.1, 82.7]
@@ -245,8 +245,8 @@
   {
     "name": "Bitterleaf",
     "type": "herb",
-    "seasons": ["bloom", "storm", "bask", "harvest", "reverie", "frost"],
-    "moonPhase": "waxingCrescent",
+    "seasons": ["Bloom", "Storm", "Bask", "Harvest", "Reverie", "Frost"],
+    "moonPhase": "WaxingCrescent",
     "image": "Bitterleaf.png",
     "top": [55.2],
     "left": [66.2]
@@ -254,8 +254,8 @@
   {
     "name": "Breeze Mint",
     "type": "herb",
-    "seasons": ["storm", "harvest", "frost"],
-    "moonPhase": "firstQuarter",
+    "seasons": ["Storm", "Harvest", "Frost"],
+    "moonPhase": "FirstQuarter",
     "image": "BreezeMint.png",
     "top": [79.1, 73.4, 65.7, 56.4, 47.5, 12.1],
     "left": [73.2, 36.5, 44.5, 24.7, 39.4, 27.1]
@@ -263,8 +263,8 @@
   {
     "name": "Burdock",
     "type": "herb",
-    "seasons": ["bloom", "reverie"],
-    "moonPhase": "waningCrescent",
+    "seasons": ["Bloom", "Reverie"],
+    "moonPhase": "WaningCrescent",
     "image": "Burdock.png",
     "top": [36.3, 39.4, 37.7, 48.1, 51.6, 51.6],
     "left": [64.6, 67.1, 70.6, 62.4, 68.9, 75.4]
@@ -272,8 +272,8 @@
   {
     "name": "Chatter Cinquefoil",
     "type": "herb",
-    "seasons": ["bloom", "bask"],
-    "moonPhase": "waxingCrescent",
+    "seasons": ["Bloom", "Bask"],
+    "moonPhase": "WaxingCrescent",
     "image": "ChatterCinquefoil.png",
     "top": [61, 59.5, 58.1, 60.3],
     "left": [59.7, 61, 68.8, 73.2]
@@ -281,8 +281,8 @@
   {
     "name": "Clove",
     "type": "herb",
-    "seasons": ["storm", "reverie", "frost"],
-    "moonPhase": "fullMoon",
+    "seasons": ["Storm", "Reverie", "Frost"],
+    "moonPhase": "FullMoon",
     "image": "Clove.png",
     "top": [22.9, 34.5, 46, 59.8, 74.9, 63.5],
     "left": [54.2, 43.3, 79.2, 61.8, 55.1, 29.7]
@@ -290,8 +290,8 @@
   {
     "name": "Demon's Mandrake",
     "type": "herb",
-    "seasons": ["bloom", "storm", "bask"],
-    "moonPhase": "waningCrescent",
+    "seasons": ["Bloom", "Storm", "Bask"],
+    "moonPhase": "WaningCrescent",
     "image": "DemonsMandrake.png",
     "top": [65.3, 77.2, 29.3, 30.5, 34, 38.1, 75.6],
     "left": [36.4, 30, 56.3, 62.6, 63.8, 66.1, 69.2]
@@ -299,8 +299,8 @@
   {
     "name": "Dream Mullein",
     "type": "herb",
-    "seasons": ["bask", "harvest"],
-    "moonPhase": "waningGibbous",
+    "seasons": ["Bask", "Harvest"],
+    "moonPhase": "WaningGibbous",
     "image": "DreamMullein.png",
     "top": [27, 52.1, 58.1, 59.1, 68.9, 65.2, 69.1, 64.3],
     "left": [54, 68.6, 63.3, 73.3, 61.7, 72.9, 73.6, 80]
@@ -308,7 +308,7 @@
   {
     "name": "Elderberry",
     "type": "herb",
-    "seasons": ["storm", "bask"],
+    "seasons": ["Storm", "Bask"],
     "moonPhase": "",
     "image": "Elderberry.png",
     "top": [],
@@ -317,8 +317,8 @@
   {
     "name": "Ephedra",
     "type": "herb",
-    "seasons": ["storm", "reverie"],
-    "moonPhase": "waningCrescent",
+    "seasons": ["Storm", "Reverie"],
+    "moonPhase": "WaningCrescent",
     "image": "Ephedra.png",
     "top": [80.7, 77.5, 44, 49.1, 54.5],
     "left": [27.4, 19.5, 39.8, 30.5, 15.7]
@@ -326,8 +326,8 @@
   {
     "name": "Fiber Weed",
     "type": "herb",
-    "seasons": ["bloom", "storm", "bask", "harvest", "reverie", "frost"],
-    "moonPhase": "newMoon",
+    "seasons": ["Bloom", "Storm", "Bask", "Harvest", "Reverie", "Frost"],
+    "moonPhase": "NewMoon",
     "image": "FiberWeed.png",
     "top": [56],
     "left": [67.2]
@@ -335,8 +335,8 @@
   {
     "name": "Gazing Fennel",
     "type": "herb",
-    "seasons": ["harvest", "reverie"],
-    "moonPhase": "waningGibbous",
+    "seasons": ["Harvest", "Reverie"],
+    "moonPhase": "WaningGibbous",
     "image": "GazingFennel.png",
     "top": [75.2, 68.9, 68, 64.5, 55.8, 31.5, 29.1, 26.3],
     "left": [68.7, 55.2, 49.3, 60.9, 48.9, 37, 56.7, 53.9]
@@ -344,8 +344,8 @@
   {
     "name": "Ginger",
     "type": "herb",
-    "seasons": ["bloom", "reverie", "frost"],
-    "moonPhase": "lastQuarter",
+    "seasons": ["Bloom", "Reverie", "Frost"],
+    "moonPhase": "LastQuarter",
     "image": "Ginger.png",
     "top": [74.5, 66.3, 60.9, 56.9, 48.1, 26.3, 26.1, 8],
     "left": [30.2, 51.0, 55.9, 51.9, 52, 54.7, 33.3, 37.5]
@@ -353,8 +353,8 @@
   {
     "name": "Horehound",
     "type": "herb",
-    "seasons": ["bloom", "storm"],
-    "moonPhase": "newMoon",
+    "seasons": ["Bloom", "Storm"],
+    "moonPhase": "NewMoon",
     "image": "Horehound.png",
     "top": [8.3, 28.1, 30.6, 41, 43.4],
     "left": [38.4, 51.9, 60.8, 62.5, 57.5]
@@ -362,8 +362,8 @@
   {
     "name": "Kūkaenēnē",
     "type": "herb",
-    "seasons": ["bask", "harvest", "frost"],
-    "moonPhase": "waxingGibbous",
+    "seasons": ["Bask", "Harvest", "Frost"],
+    "moonPhase": "WaxingGibbous",
     "image": "Kukaenene.png",
     "top": [68.5, 53.4],
     "left": [22.5, 20.1]
@@ -371,8 +371,8 @@
   {
     "name": "Lavender",
     "type": "herb",
-    "seasons": ["bloom", "harvest"],
-    "moonPhase": "fullMoon",
+    "seasons": ["Bloom", "Harvest"],
+    "moonPhase": "FullMoon",
     "image": "Lavender.png",
     "top": [78.6, 31.6, 64.7, 63.4],
     "left": [51.2, 43.3, 70.7, 73.5]
@@ -380,8 +380,8 @@
   {
     "name": "Longroot",
     "type": "herb",
-    "seasons": ["bloom", "storm", "bask", "harvest", "reverie", "frost"],
-    "moonPhase": "lastQuarter",
+    "seasons": ["Bloom", "Storm", "Bask", "Harvest", "Reverie", "Frost"],
+    "moonPhase": "LastQuarter",
     "image": "Longroot.png",
     "top": [56.7],
     "left": [68.2]
@@ -389,8 +389,8 @@
   {
     "name": "Lotus",
     "type": "herb",
-    "seasons": ["bask", "harvest"],
-    "moonPhase": "fullMoon",
+    "seasons": ["Bask", "Harvest"],
+    "moonPhase": "FullMoon",
     "image": "Lotus.png",
     "top": [73.2, 27.1, 27.4, 31.9, 26.1, 16.5],
     "left": [31.7, 51.7, 56.8, 37, 29.2, 24.4]
@@ -398,8 +398,8 @@
   {
     "name": "Mirage Agrimony",
     "type": "herb",
-    "seasons": ["storm", "bask", "harvest", "reverie"],
-    "moonPhase": "fullMoon",
+    "seasons": ["Storm", "Bask", "Harvest", "Reverie"],
+    "moonPhase": "FullMoon",
     "image": "MirageAgrimony.png",
     "top": [55.8, 55.4, 61.3, 67.9, 68.5],
     "left": [69.6, 72.9, 71.9, 78.3, 63.7]
@@ -407,8 +407,8 @@
   {
     "name": "Nettle",
     "type": "herb",
-    "seasons": ["bloom", "storm"],
-    "moonPhase": "waningGibbous",
+    "seasons": ["Bloom", "Storm"],
+    "moonPhase": "WaningGibbous",
     "image": "Nettle.png",
     "top": [36.9, 8.8, 14.1, 15.3, 33.6, 46.2, 50.9, 51, 75.9],
     "left": [42.6, 35.1, 28.4, 33.4, 60.8, 45.2, 57.9, 67.6, 57.1]
@@ -416,8 +416,8 @@
   {
     "name": "Ocean's Squill",
     "type": "herb",
-    "seasons": ["harvest", "reverie"],
-    "moonPhase": "firstQuarter",
+    "seasons": ["Harvest", "Reverie"],
+    "moonPhase": "FirstQuarter",
     "image": "OceansSquill.png",
     "top": [34.9, 37.2, 30.8, 28.1],
     "left": [47.0, 53.1, 53.6, 58]
@@ -425,8 +425,8 @@
   {
     "name": "Oregano",
     "type": "herb",
-    "seasons": ["bloom", "storm", "bask"],
-    "moonPhase": "fullMoon",
+    "seasons": ["Bloom", "Storm", "Bask"],
+    "moonPhase": "FullMoon",
     "image": "Oregano.png",
     "top": [54.7, 58.1, 72, 77.3, 75.9, 78.7],
     "left": [35, 42.1, 43.4, 38.8, 48.2, 44.6]
@@ -434,8 +434,8 @@
   {
     "name": "Snake Agave",
     "type": "herb",
-    "seasons": ["bloom", "storm", "harvest", "reverie"],
-    "moonPhase": "lastQuarter",
+    "seasons": ["Bloom", "Storm", "Harvest", "Reverie"],
+    "moonPhase": "LastQuarter",
     "image": "SnakeAgave.png",
     "top": [74.1, 67.4, 71.1, 63.2, 64.7, 58],
     "left": [47.2, 42.8, 26.8, 25.6, 39.7, 32.7]
@@ -443,8 +443,8 @@
   {
     "name": "Thistle",
     "type": "herb",
-    "seasons": ["storm", "bask", "harvest"],
-    "moonPhase": "waxingGibbous",
+    "seasons": ["Storm", "Bask", "Harvest"],
+    "moonPhase": "WaxingGibbous",
     "image": "Thistle.png",
     "top": [33.4, 40, 44.2, 51.2, 53.4],
     "left": [59.1, 48.8, 47.7, 50.9, 59.5]
@@ -452,8 +452,8 @@
   {
     "name": "Turmeric",
     "type": "herb",
-    "seasons": ["storm", "bask", "harvest"],
-    "moonPhase": "waxingCrescent",
+    "seasons": ["Storm", "Bask", "Harvest"],
+    "moonPhase": "WaxingCrescent",
     "image": "Turmeric.png",
     "top": [69.4, 52.3, 52.4, 45.4, 25.7],
     "left": [58.2, 47.1, 55.2, 57.5, 54.2]
@@ -461,8 +461,8 @@
   {
     "name": "Typha",
     "type": "herb",
-    "seasons": ["storm", "bask", "harvest", "reverie"],
-    "moonPhase": "waxingCrescent",
+    "seasons": ["Storm", "Bask", "Harvest", "Reverie"],
+    "moonPhase": "WaxingCrescent",
     "image": "Typha.png",
     "top": [31, 31.8, 38.2, 32.3, 41.3],
     "left": [48.2, 50.7, 51.2, 61.4, 74.6]
@@ -470,8 +470,8 @@
   {
     "name": "Velvet Vanilla",
     "type": "herb",
-    "seasons": ["bloom", "storm", "reverie"],
-    "moonPhase": "firstQuarter",
+    "seasons": ["Bloom", "Storm", "Reverie"],
+    "moonPhase": "FirstQuarter",
     "image": "VelvetVanilla.png",
     "top": [72.1, 79],
     "left": [29.5, 49.5]
@@ -479,8 +479,8 @@
   {
     "name": "Wolf's Bane",
     "type": "herb",
-    "seasons": ["bask", "harvest"],
-    "moonPhase": "lastQuarter",
+    "seasons": ["Bask", "Harvest"],
+    "moonPhase": "LastQuarter",
     "image": "WolfsBane.png",
     "top": [75.6, 73.9, 78.3, 68.3, 63.1],
     "left": [82.3, 79.8, 77.1, 61.5, 80.8]
@@ -488,8 +488,8 @@
   {
     "name": "Aster",
     "type": "flower",
-    "seasons": ["bask", "harvest", "reverie"],
-    "moonPhase": "newMoon",
+    "seasons": ["Bask", "Harvest", "Reverie"],
+    "moonPhase": "NewMoon",
     "image": "Aster.png",
     "top": [48.7],
     "left": [67.9]
@@ -497,8 +497,8 @@
   {
     "name": "Calendula",
     "type": "flower",
-    "seasons": ["bloom", "storm", "bask", "harvest", "reverie"],
-    "moonPhase": "firstQuarter",
+    "seasons": ["Bloom", "Storm", "Bask", "Harvest", "Reverie"],
+    "moonPhase": "FirstQuarter",
     "image": "Calendula.png",
     "top": [35.1, 31.9, 25.4, 9.7],
     "left": [39.0, 40.1, 31.9, 34]
@@ -506,8 +506,8 @@
   {
     "name": "Chamomile",
     "type": "flower",
-    "seasons": ["bloom", "storm", "bask"],
-    "moonPhase": "waningCrescent",
+    "seasons": ["Bloom", "Storm", "Bask"],
+    "moonPhase": "WaningCrescent",
     "image": "Chamomile.png",
     "top": [8.5, 15.9, 17.3, 25.2, 26.8, 28.9, 33.2, 48.5],
     "left": [37.2, 56.9, 58.7, 53.6, 57.6, 58.6, 46.7, 79]
@@ -515,8 +515,8 @@
   {
     "name": "Cornflower",
     "type": "flower",
-    "seasons": ["bloom", "storm"],
-    "moonPhase": "newMoon",
+    "seasons": ["Bloom", "Storm"],
+    "moonPhase": "NewMoon",
     "image": "Cornflower.png",
     "top": [44.9, 50.4, 54.3, 58.2, 62.7, 63.6, 61.8, 58.8, 59, 68.8],
     "left": [56.7, 47.1, 57.8, 55.7, 54.1, 57.2, 66.2, 70.9, 76.5, 60.7]
@@ -524,8 +524,8 @@
   {
     "name": "Cosmos",
     "type": "flower",
-    "seasons": ["bask", "harvest", "reverie"],
-    "moonPhase": "newMoon",
+    "seasons": ["Bask", "Harvest", "Reverie"],
+    "moonPhase": "NewMoon",
     "image": "Cosmos.png",
     "top": [48.7],
     "left": [68.7]
@@ -533,8 +533,8 @@
   {
     "name": "Crocus",
     "type": "flower",
-    "seasons": ["bloom", "storm", "frost"],
-    "moonPhase": "waningCrescent",
+    "seasons": ["Bloom", "Storm", "Frost"],
+    "moonPhase": "WaningCrescent",
     "image": "Crocus.png",
     "top": [64.8, 68.4, 66.1, 82.1],
     "left": [74.8, 77.2, 82.2, 72.8]
@@ -542,8 +542,8 @@
   {
     "name": "Dahlia",
     "type": "flower",
-    "seasons": ["storm", "bask", "harvest"],
-    "moonPhase": "waxingCrescent",
+    "seasons": ["Storm", "Bask", "Harvest"],
+    "moonPhase": "WaxingCrescent",
     "image": "Dahlia.png",
     "top": [11.8, 18.4],
     "left": [42.6, 26.2]
@@ -551,8 +551,8 @@
   {
     "name": "Heather",
     "type": "flower",
-    "seasons": ["harvest", "reverie"],
-    "moonPhase": "waxingGibbous",
+    "seasons": ["Harvest", "Reverie"],
+    "moonPhase": "WaxingGibbous",
     "image": "Heather.png",
     "top": [58.1, 62, 60.6, 84.1],
     "left": [60.7, 62, 67.5, 77.9]
@@ -560,8 +560,8 @@
   {
     "name": "Hyacinth",
     "type": "flower",
-    "seasons": ["bloom", "storm"],
-    "moonPhase": "lastQuarter",
+    "seasons": ["Bloom", "Storm"],
+    "moonPhase": "LastQuarter",
     "image": "Hyacinth.png",
     "top": [38.1, 62.3],
     "left": [41.3, 62.3]
@@ -569,8 +569,8 @@
   {
     "name": "Lily",
     "type": "flower",
-    "seasons": ["bask"],
-    "moonPhase": "waxingCrescent",
+    "seasons": ["Bask"],
+    "moonPhase": "WaxingCrescent",
     "image": "Lily.png",
     "top": [14.8, 20.1],
     "left": [41.7, 36.4]
@@ -578,8 +578,8 @@
   {
     "name": "Lobelia",
     "type": "flower",
-    "seasons": ["storm", "bask", "harvest", "reverie"],
-    "moonPhase": "waxingCrescent",
+    "seasons": ["Storm", "Bask", "Harvest", "Reverie"],
+    "moonPhase": "WaxingCrescent",
     "image": "Lobelia.png",
     "top": [21.5, 27.1, 30.8, 41.3, 42.1, 84.5],
     "left": [56.5, 52.4, 54.4, 52, 49.5, 73.5]
@@ -587,8 +587,8 @@
   {
     "name": "Lupins",
     "type": "flower",
-    "seasons": ["bloom", "reverie", "frost"],
-    "moonPhase": "fullMoon",
+    "seasons": ["Bloom", "Reverie", "Frost"],
+    "moonPhase": "FullMoon",
     "image": "Lupins.png",
     "top": [73.7, 71.1],
     "left": [33.8, 30.3]
@@ -596,8 +596,8 @@
   {
     "name": "Pansy",
     "type": "flower",
-    "seasons": ["bloom", "storm", "bask", "harvest", "reverie", "frost"],
-    "moonPhase": "waningCrescent",
+    "seasons": ["Bloom", "Storm", "Bask", "Harvest", "Reverie", "Frost"],
+    "moonPhase": "WaningCrescent",
     "image": "Pansy.png",
     "top": [23.4, 36.9, 44.7, 47.3, 52.3, 60.5, 68.7],
     "left": [30.3, 66.9, 59.6, 57.9, 74.8, 65.3, 82.8]
@@ -605,8 +605,8 @@
   {
     "name": "Pelargonia",
     "type": "flower",
-    "seasons": ["bloom", "storm", "bask"],
-    "moonPhase": "lastQuarter",
+    "seasons": ["Bloom", "Storm", "Bask"],
+    "moonPhase": "LastQuarter",
     "image": "Pelargonia.png",
     "top": [49.4],
     "left": [67.9]
@@ -614,8 +614,8 @@
   {
     "name": "Poppy",
     "type": "flower",
-    "seasons": ["bloom", "storm"],
-    "moonPhase": "fullMoon",
+    "seasons": ["Bloom", "Storm"],
+    "moonPhase": "FullMoon",
     "image": "Poppy.png",
     "top": [48.9, 53, 51.2, 49.2],
     "left": [47.9, 48.4, 55.4, 58.2]
@@ -623,8 +623,8 @@
   {
     "name": "Rose",
     "type": "flower",
-    "seasons": ["storm", "bask"],
-    "moonPhase": "waningGibbous",
+    "seasons": ["Storm", "Bask"],
+    "moonPhase": "WaningGibbous",
     "image": "Rose.png",
     "top": [49.5],
     "left": [68.8]
@@ -632,8 +632,8 @@
   {
     "name": "Surfinia",
     "type": "flower",
-    "seasons": ["storm", "bask", "reverie"],
-    "moonPhase": "waningGibbous",
+    "seasons": ["Storm", "Bask", "Reverie"],
+    "moonPhase": "WaningGibbous",
     "image": "Surfinia.png",
     "top": [49],
     "left": [69.6]
@@ -641,8 +641,8 @@
   {
     "name": "Tagetes",
     "type": "flower",
-    "seasons": ["bask", "harvest"],
-    "moonPhase": "waxingGibbous",
+    "seasons": ["Bask", "Harvest"],
+    "moonPhase": "WaxingGibbous",
     "image": "Tagetes.png",
     "top": [69.6, 11.6, 15.7],
     "left": [61.8, 30.9, 46.8]
@@ -650,8 +650,8 @@
   {
     "name": "Tulip",
     "type": "flower",
-    "seasons": ["bloom", "storm", "bask"],
-    "moonPhase": "waningCrescent",
+    "seasons": ["Bloom", "Storm", "Bask"],
+    "moonPhase": "WaningCrescent",
     "image": "Tulip.png",
     "top": [40.1, 57.7, 76.2, 83.6],
     "left": [69.7, 73, 59.8, 75.6]
@@ -806,7 +806,7 @@
     "name": "Magical Chest",
     "type": "magicalChest",
     "seasons": [],
-    "moonPhase": "newMoon",
+    "moonPhase": "NewMoon",
     "image": "MagicalChestMoon.png",
     "top": [64.8, 20.7],
     "left": [65.6, 53.1]
@@ -815,7 +815,7 @@
     "name": "Magical Chest",
     "type": "magicalChest",
     "seasons": [],
-    "moonPhase": "waxingCrescent",
+    "moonPhase": "WaxingCrescent",
     "image": "MagicalChestMoon.png",
     "top": [63.8, 73, 57.4, 75],
     "left": [68.2, 69.9, 20.3, 63.2]
@@ -824,7 +824,7 @@
     "name": "Magical Chest",
     "type": "magicalChest",
     "seasons": [],
-    "moonPhase": "firstQuarter",
+    "moonPhase": "FirstQuarter",
     "image": "MagicalChestMoon.png",
     "top": [36.2, 43.1, 56.6, 75.9, 17.6, 13.4],
     "left": [45.3, 44.5, 32.6, 25, 55.6, 49.2]
@@ -833,7 +833,7 @@
     "name": "Magical Chest",
     "type": "magicalChest",
     "seasons": [],
-    "moonPhase": "waxingGibbous",
+    "moonPhase": "WaxingGibbous",
     "image": "MagicalChestMoon.png",
     "top": [13.8],
     "left": [42.4]
@@ -842,7 +842,7 @@
     "name": "Magical Chest",
     "type": "magicalChest",
     "seasons": [],
-    "moonPhase": "fullMoon",
+    "moonPhase": "FullMoon",
     "image": "MagicalChestMoon.png",
     "top": [72.2, 34.9, 46.5, 76.4, 16.2, 89.9],
     "left": [72.8, 65.3, 47.3, 19.8, 27.4, 80.9]
@@ -851,7 +851,7 @@
     "name": "Magical Chest",
     "type": "magicalChest",
     "seasons": [],
-    "moonPhase": "waningGibbous",
+    "moonPhase": "WaningGibbous",
     "image": "MagicalChestMoon.png",
     "top": [58.1, 63.7, 71.3, 31.7, 50.3, 18.6],
     "left": [66.1, 76.5, 79.8, 62, 52.6, 23.4]
@@ -860,7 +860,7 @@
     "name": "Magical Chest",
     "type": "magicalChest",
     "seasons": [],
-    "moonPhase": "lastQuarter",
+    "moonPhase": "LastQuarter",
     "image": "MagicalChestMoon.png",
     "top": [60.5, 30.7, 23.8, 23.3],
     "left": [3, 44.3, 36.4, 27.9]
@@ -869,7 +869,7 @@
     "name": "Magical Chest",
     "type": "magicalChest",
     "seasons": [],
-    "moonPhase": "waningCrescent",
+    "moonPhase": "WaningCrescent",
     "image": "MagicalChestMoon.png",
     "top": [61.3, 19.2, 27.9],
     "left": [67.1, 44.5, 34.5]

@@ -24,6 +24,8 @@ const WIFO = () => {
     name: "",
     top: null,
     left: null,
+    seasons: [],
+    moonPhase: null,
   })
 
   // Code to track mouse position when clicking
@@ -83,18 +85,22 @@ const WIFO = () => {
     }))
   }
 
-  const handleOnIconClick = (name, top, left) => {
+  const handleOnIconClick = (name, top, left, seasons, moonPhase) => {
     if (iconModalInfo.name === name) {
       setIconModalInfo({
         name: "",
         top: null,
         left: null,
+        seasons: [],
+        moonPhase: null,
       })
     } else {
       setIconModalInfo({
         name: name,
         top: top,
         left: left,
+        seasons: seasons,
+        moonPhase: moonPhase,
       })
     }
   }
@@ -116,6 +122,8 @@ const WIFO = () => {
       </div>
     )
   }
+
+  console.log(iconModalInfo)
 
   return (
     <Hub>
@@ -233,7 +241,7 @@ const WIFO = () => {
                 className={isBigMap ? "img-icon-large" : "img-icon"}
                 style={{top: resource.top[i] + "%", left: resource.left[i] + "%"}}
                 title={resource.name}
-                onClick={() => handleOnIconClick(resource.name, resource.top[i], resource.left[i])}
+                onClick={() => handleOnIconClick(resource.name, resource.top[i], resource.left[i], resource.seasons, resource.moonPhase)}
               />)
             }
             return returnImg
@@ -241,20 +249,19 @@ const WIFO = () => {
 
           {!showDevTools && iconModalInfo.name !== "" && (
             <div
+              className="modal-icon-wrapper"
               style={{
                 position: 'absolute',
-                top: iconModalInfo.top + -0.5 + "%",
-                left: iconModalInfo.left + 0.5 + "%",
-                backgroundColor: 'white',
-                color: 'black',
-                border: '1px solid black',
-                borderRadius: '5px',
+                top: iconModalInfo.top + -0.7 + "%",
+                left: iconModalInfo.left + 1 + "%",
                 fontSize: isBigMap ? '1.2rem' : '0.6rem',
                 pointerEvents: 'none',
                 zIndex: 20,
               }}
             >
+              {iconModalInfo.seasons.map(season => <img key={season} className="modal-icon-img" src={imagePath + season +  ".png"} alt={season} style={{ height: isBigMap ? "20px" : "10px"}} />)}
               {iconModalInfo.name}
+              <img src={imagePath + iconModalInfo.moonPhase + ".png"} className="modal-icon-img" alt={iconModalInfo.moonPhase} style={{ height: isBigMap ? "20px" : "10px"}} />
             </div>
           )}
         </div>
