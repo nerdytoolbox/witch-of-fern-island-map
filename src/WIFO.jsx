@@ -20,6 +20,11 @@ const WIFO = () => {
   const [isBigMap, setIsBigMap] = useState(false)
   const [showDevTools, setShowDevTools] = useState(false)
   const [resourceData, setResourceData] = useState([])
+  const [iconModalInfo, setIconModalInfo] = useState({
+    name: "",
+    top: null,
+    left: null,
+  })
 
   // Code to track mouse position when clicking
   const [position, setPosition] = useState({ x: null, y: null })
@@ -76,6 +81,22 @@ const WIFO = () => {
       ...prevSettings,
       [resource]: !prevSettings[resource],
     }))
+  }
+
+  const handleOnIconClick = (name, top, left) => {
+    if (iconModalInfo.name === name) {
+      setIconModalInfo({
+        name: "",
+        top: null,
+        left: null,
+      })
+    } else {
+      setIconModalInfo({
+        name: name,
+        top: top,
+        left: left,
+      })
+    }
   }
 
   // Filter data based on the selected options
@@ -164,8 +185,8 @@ const WIFO = () => {
           <div className="settings-box">
             <TextInput placeholder="Search..." value={filterText} onChange={handleFilterTextChange} />
             <div className="hide-on-mobile">
-              <div><input type="checkbox" checked={isBigMap} onClick={handleMapToggle}/> Big Map</div>
-              <div><input type="checkbox" checked={showDevTools} onClick={handleDevToolsToggle}/> Show map position on click</div>
+              <div><input type="checkbox" checked={isBigMap} onChange={handleMapToggle}/> Big Map</div>
+              <div><input type="checkbox" checked={showDevTools} onChange={handleDevToolsToggle}/> Show map position on click</div>
             </div>
           </div>
           {getFooter()}
@@ -206,15 +227,36 @@ const WIFO = () => {
             const returnImg = []
             for (let i = 0; i < amount; i++) {
               returnImg.push(<img
+                key={resource.name + i}
                 src={image}
                 alt={resource.name}
                 className={isBigMap ? "img-icon-large" : "img-icon"}
                 style={{top: resource.top[i] + "%", left: resource.left[i] + "%"}}
                 title={resource.name}
+                onClick={() => handleOnIconClick(resource.name, resource.top[i], resource.left[i])}
               />)
             }
             return returnImg
           })}
+
+          {!showDevTools && iconModalInfo.name !== "" && (
+            <div
+              style={{
+                position: 'absolute',
+                top: iconModalInfo.top + -0.5 + "%",
+                left: iconModalInfo.left + 0.5 + "%",
+                backgroundColor: 'white',
+                color: 'black',
+                border: '1px solid black',
+                borderRadius: '5px',
+                fontSize: isBigMap ? '1.2rem' : '0.6rem',
+                pointerEvents: 'none',
+                zIndex: 20,
+              }}
+            >
+              {iconModalInfo.name}
+            </div>
+          )}
         </div>
       </div>
     </Hub>
