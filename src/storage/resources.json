@@ -545,8 +545,8 @@
     "seasons": ["Bask", "Harvest", "Reverie"],
     "moonPhase": "NewMoon",
     "image": "Aster.png",
-    "top": [48.7],
-    "left": [67.9],
+    "top": [],
+    "left": [],
     "flowerBee": ["Bask", "Harvest", "Reverie"]
   },
   {
@@ -585,8 +585,8 @@
     "seasons": ["Bask", "Harvest", "Reverie"],
     "moonPhase": "NewMoon",
     "image": "Cosmos.png",
-    "top": [48.7],
-    "left": [68.7],
+    "top": [],
+    "left": [],
     "flowerBee": ["Bask", "Harvest", "Reverie"]
   },
   {
@@ -675,8 +675,8 @@
     "seasons": ["Bloom", "Storm", "Bask"],
     "moonPhase": "LastQuarter",
     "image": "Pelargonia.png",
-    "top": [49.4],
-    "left": [67.9],
+    "top": [],
+    "left": [],
     "flowerBee": ["Bloom", "Storm", "Bask"]
   },
   {
@@ -695,8 +695,8 @@
     "seasons": ["Storm", "Bask"],
     "moonPhase": "WaningGibbous",
     "image": "Rose.png",
-    "top": [49.5],
-    "left": [68.8],
+    "top": [],
+    "left": [],
     "flowerBee": ["Storm", "Bask"]
   },
   {
@@ -705,8 +705,8 @@
     "seasons": ["Storm", "Bask", "Reverie"],
     "moonPhase": "WaningGibbous",
     "image": "Surfinia.png",
-    "top": [49],
-    "left": [69.6],
+    "top": [],
+    "left": [],
     "flowerBee": ["Storm", "Bask", "Reverie"]
   },
   {
