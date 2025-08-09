@@ -873,5 +873,212 @@
     "image": "MagicalChestMoon.png",
     "top": [61.3, 19.2, 27.9],
     "left": [67.1, 44.5, 34.5]
+  },
+  {
+    "name": "Asparagus",
+    "type": "vegetable",
+    "seasons": ["Bloom", "Storm", "Bask"],
+    "moonPhase": "FirstQuarter",
+    "image": "Asparagus.png",
+    "top": [35.9],
+    "left": [41.2]
+  },
+  {
+    "name": "Beans",
+    "type": "vegetable",
+    "seasons": ["Bask", "Harvest", "Reverie"],
+    "moonPhase": "LastQuarter",
+    "image": "Beans.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Blueberries",
+    "type": "vegetable",
+    "seasons": ["Storm", "Bask", "Harvest", "Reverie"],
+    "moonPhase": "WaningCrescent",
+    "image": "Blueberries.png",
+    "top": [18.3],
+    "left": [58.9]
+  },
+  {
+    "name": "Cabbage",
+    "type": "vegetable",
+    "seasons": ["Bloom", "Harvest"],
+    "moonPhase": "WaningCrescent",
+    "image": "Cabbage.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Carrot",
+    "type": "vegetable",
+    "seasons": ["Bloom", "Storm"],
+    "moonPhase": "WaxingCrescent",
+    "image": "Carrot.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Corn",
+    "type": "vegetable",
+    "seasons": ["Harvest"],
+    "moonPhase": "NewMoon",
+    "image": "Corn.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Cucumber",
+    "type": "vegetable",
+    "seasons": ["Storm", "Bask", "Harvest"],
+    "moonPhase": "FirstQuarter",
+    "image": "Cucumber.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Eggplant",
+    "type": "vegetable",
+    "seasons": ["Storm", "Bask"],
+    "moonPhase": "WaxingCrescent",
+    "image": "Eggplant.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Garlic",
+    "type": "vegetable",
+    "seasons": ["Bloom", "Storm", "Bask", "Harvest", "Reverie"],
+    "moonPhase": "FullMoon",
+    "image": "Garlic.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Grapes",
+    "type": "vegetable",
+    "seasons": ["Bask", "Harvest"],
+    "moonPhase": "NewMoon",
+    "image": "Grapes.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Leek",
+    "type": "vegetable",
+    "seasons": ["Bloom", "Harvest", "Reverie"],
+    "moonPhase": "NewMoon",
+    "image": "Leek.png",
+    "top": [18],
+    "left": [53.8]
+  },
+  {
+    "name": "Lettuce",
+    "type": "vegetable",
+    "seasons": ["Bloom", "Storm", "Bask", "Harvest"],
+    "moonPhase": "WaxingCrescent",
+    "image": "Lettuce.png",
+    "top": [5.1],
+    "left": [38.6]
+  },
+  {
+    "name": "Onion",
+    "type": "vegetable",
+    "seasons": ["Bloom", "Storm", "Bask", "Harvest", "Reverie"],
+    "moonPhase": "WaxingGibbous",
+    "image": "Onion.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Pepper",
+    "type": "vegetable",
+    "seasons": ["Bask", "Harvest"],
+    "moonPhase": "WaxingGibbous",
+    "image": "Pepper.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Potato",
+    "type": "vegetable",
+    "seasons": ["Bloom", "Storm", "Bask", "Harvest", "Reverie"],
+    "moonPhase": "WaxingCrescent",
+    "image": "Potato.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Pumpkin",
+    "type": "vegetable",
+    "seasons": ["Harvest", "Reverie"],
+    "moonPhase": "WaningGibbous",
+    "image": "Pumpkin.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Radish",
+    "type": "vegetable",
+    "seasons": ["Bloom"],
+    "moonPhase": "WaningGibbous",
+    "image": "Radish.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Redbeet",
+    "type": "vegetable",
+    "seasons": ["Bloom", "Harvest"],
+    "moonPhase": "FirstQuarter",
+    "image": "Redbeet.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Strawberry",
+    "type": "vegetable",
+    "seasons": ["Storm"],
+    "moonPhase": "WaningCrescent",
+    "image": "Strawberry.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Sunflower",
+    "type": "vegetable",
+    "seasons": ["Storm", "Bask", "Harvest"],
+    "moonPhase": "LastQuarter",
+    "image": "Sunflower.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Tomato",
+    "type": "vegetable",
+    "seasons": ["Storm", "Bask"],
+    "moonPhase": "FullMoon",
+    "image": "Tomato.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Watermelon",
+    "type": "vegetable",
+    "seasons": ["Storm", "Bask", "Harvest"],
+    "moonPhase": "NewMoon",
+    "image": "Watermelon.png",
+    "top": [],
+    "left": []
+  },
+  {
+    "name": "Wheat",
+    "type": "vegetable",
+    "seasons": ["Bloom", "Storm", "Bask", "Harvest"],
+    "moonPhase": "FullMoon",
+    "image": "Wheat.png",
+    "top": [],
+    "left": []
   }
 ]

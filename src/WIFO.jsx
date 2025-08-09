@@ -11,6 +11,7 @@ const WIFO = () => {
   const [selectedSeason, setSelectedSeason] = useState("none")
   const [resourceSettings, setResourceSettings] = useState({
     herb: true,
+    vegetable: true,
     mushroom: true,
     flower: true,
     oreLumber: true,
@@ -152,6 +153,8 @@ const WIFO = () => {
             <div className="resource-setting">
               <img src={imagePath + "Herb.png"} alt="Herb" className={`setting-icon resource-icon${resourceSettings.herb ? "-selected" : ""}`}
                    onClick={() => handleResourceToggle("herb")}/>
+              <img src={imagePath + "Vegetable.png"} alt="Vegetable" className={`setting-icon resource-icon${resourceSettings.vegetable ? "-selected" : ""}`}
+                   onClick={() => handleResourceToggle("vegetable")}/>
               <img src={imagePath + "Mushroom.png"} alt="Mushroom" className={`setting-icon resource-icon${resourceSettings.mushroom ? "-selected" : ""}`}
                    onClick={() => handleResourceToggle("mushroom")}/>
               <img src={imagePath + "Flower.png"} alt="Flower" className={`setting-icon resource-icon${resourceSettings.flower ? "-selected" : ""}`}
