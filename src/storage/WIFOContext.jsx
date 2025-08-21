@@ -11,8 +11,8 @@ export const WIFOProvider = ({ children }) => {
 		vegetable: true,
 		mushroom: true,
 		flower: true,
-		oreLumber: true,
-		magicalChest: true,
+		oreLumber: false,
+		magicalChest: false,
 	});
 	const [selectedMoon, setSelectedMoon] = useState("none");
 
@@ -71,10 +71,27 @@ export const WIFOProvider = ({ children }) => {
 	}
 
 	const handleResourceToggle = (resource) => {
-		setResourceSettings((prevSettings) => ({
-			...prevSettings,
-			[resource]: !prevSettings[resource],
-		}))
+		const linkedResources = ["herb", "vegetable", "mushroom", "flower"];
+
+		setResourceSettings((prevSettings) => {
+			if (linkedResources.includes(resource)) {
+				return ({
+					...prevSettings,
+					[resource]: !prevSettings[resource],
+					oreLumber: false,
+					magicalChest: false,
+				})
+			} else {
+				return ({
+					herb: false,
+					vegetable: false,
+					mushroom: false,
+					flower: false,
+					oreLumber: resource === "oreLumber",
+					magicalChest: resource === "magicalChest",
+				})
+			}
+		})
 	}
 
 	const handleOnIconClick = (name, top, left, seasons, moonPhase) => {

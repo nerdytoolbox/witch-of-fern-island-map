@@ -7,14 +7,16 @@ const ResourceSettings = () => {
 
 	return (
 		<div className="resource-setting">
-			<img src={IMAGE_PATH + "Herb.png"} alt="Herb" className={`setting-icon resource-icon${resourceSettings.herb ? "-selected" : ""}`}
-			     onClick={() => handleResourceToggle("herb")}/>
-			<img src={IMAGE_PATH + "Vegetable.png"} alt="Vegetable" className={`setting-icon resource-icon${resourceSettings.vegetable ? "-selected" : ""}`}
-			     onClick={() => handleResourceToggle("vegetable")}/>
-			<img src={IMAGE_PATH + "Mushroom.png"} alt="Mushroom" className={`setting-icon resource-icon${resourceSettings.mushroom ? "-selected" : ""}`}
-			     onClick={() => handleResourceToggle("mushroom")}/>
-			<img src={IMAGE_PATH + "Flower.png"} alt="Flower" className={`setting-icon resource-icon${resourceSettings.flower ? "-selected" : ""}`}
-			     onClick={() => handleResourceToggle("flower")}/>
+			<div className="linked-resources">
+				<img src={IMAGE_PATH + "Herb.png"} alt="Herb" className={`setting-icon resource-icon${resourceSettings.herb ? "-selected" : ""}`}
+				     onClick={() => handleResourceToggle("herb")}/>
+				<img src={IMAGE_PATH + "Vegetable.png"} alt="Vegetable" className={`setting-icon resource-icon${resourceSettings.vegetable ? "-selected" : ""}`}
+				     onClick={() => handleResourceToggle("vegetable")}/>
+				<img src={IMAGE_PATH + "Mushroom.png"} alt="Mushroom" className={`setting-icon resource-icon${resourceSettings.mushroom ? "-selected" : ""}`}
+				     onClick={() => handleResourceToggle("mushroom")}/>
+				<img src={IMAGE_PATH + "Flower.png"} alt="Flower" className={`setting-icon resource-icon${resourceSettings.flower ? "-selected" : ""}`}
+				     onClick={() => handleResourceToggle("flower")}/>
+			</div>
 			<img src={IMAGE_PATH + "Lumber.png"} alt="Ore&Lumber" className={`setting-icon resource-icon${resourceSettings.oreLumber ? "-selected" : ""}`}
 			     onClick={() => handleResourceToggle("oreLumber")}/>
 			<img src={IMAGE_PATH + "MagicalChest.png"} alt="Magical Chest" className={`setting-icon resource-icon${resourceSettings.magicalChest ? "-selected" : ""}`}
