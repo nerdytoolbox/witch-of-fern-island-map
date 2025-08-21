@@ -17,6 +17,8 @@ export const WIFOProvider = ({ children }) => {
 	const [selectedMoon, setSelectedMoon] = useState("none");
 
 	const [filterText, setFilterText] = useState("");
+	const [showFlowerBee, setShowFlowerBee] = useState(false);
+
 	const [isBigMap, setIsBigMap] = useState(false);
 	const [showDevTools, setShowDevTools] = useState(false);
 
@@ -42,12 +44,16 @@ export const WIFOProvider = ({ children }) => {
 	}
 
 	// Handlers
+	const handleFlowerBeeToggle = () => {
+		setShowFlowerBee(prevState => !prevState)
+	}
+
 	const handleMapToggle = () => {
-		setIsBigMap(!isBigMap)
+		setIsBigMap(prevState => !prevState)
 	}
 
 	const handleDevToolsToggle = () => {
-		setShowDevTools(!showDevTools)
+		setShowDevTools(prevState => !prevState)
 	}
 
 	const handleFilterTextChange = (e) => {
@@ -125,7 +131,8 @@ export const WIFOProvider = ({ children }) => {
 			showDevTools, handleDevToolsToggle,
 			iconModalInfo, setIconModalInfo,
 			clickedPosition, setClickedPosition,
-			imageRef, handleMouseClick, handleOnIconClick
+			imageRef, handleMouseClick, handleOnIconClick,
+			showFlowerBee, handleFlowerBeeToggle,
 		}}>
 			{children}
 		</WIFOContext.Provider>

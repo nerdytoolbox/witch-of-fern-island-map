@@ -10,6 +10,7 @@ const ResourceIcons = () => {
 		resourceSettings,
 		selectedMoon,
 		filterText,
+		showFlowerBee,
 		isBigMap,
 		handleOnIconClick,
 	} = useContext(WIFOContext)
@@ -46,7 +47,7 @@ const ResourceIcons = () => {
 				return returnImg
 			})}
 
-			{flowerBeeData.length > 0 && (
+			{showFlowerBee && flowerBeeData.length > 0 && (
 				<div
 					className="flower-bee-info"
 					style={{
@@ -58,9 +59,10 @@ const ResourceIcons = () => {
 						zIndex: 8,
 					}}
 				>
-					<span className="flower-bee-title">Flower Bee</span>
+					<span className="flower-bee-title">Flower Bee (seasons show when seeds can be bought)</span>
 					{flowerBeeData.map(seed => (
 						<div key={seed.name} className="flower-bee-seed">
+							<img src={IMAGE_PATH + seed.moonPhase +  ".png"} alt={seed.moonPhase} style={{ height: isBigMap ? "20px" : "10px"}} />
 							{seed.name}
 							{seed.flowerBee.map(season => <img key={season} src={IMAGE_PATH + season +  ".png"} alt={season} style={{ height: isBigMap ? "20px" : "10px"}} />)}
 						</div>

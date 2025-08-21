@@ -11,6 +11,8 @@ const Header = () => {
 		handleMapToggle,
 		filterText,
 		handleFilterTextChange,
+		showFlowerBee,
+		handleFlowerBeeToggle,
 		showDevTools,
 		handleDevToolsToggle
 	} = useContext(WIFOContext);
@@ -26,6 +28,9 @@ const Header = () => {
 			</div>
 
 			<div className="other-settings-box">
+				<div className="checkbox-settings">
+					<div><input type="checkbox" checked={showFlowerBee} onChange={handleFlowerBeeToggle}/> Show Flower Bee seeds</div>
+				</div>
 				<TextInput placeholder="Search..." value={filterText} onChange={handleFilterTextChange} />
 				<div className="hide-on-mobile">
 					<div><input type="checkbox" checked={isBigMap} onChange={handleMapToggle}/> Big Map</div>
