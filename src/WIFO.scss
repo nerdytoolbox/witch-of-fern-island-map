@@ -53,8 +53,12 @@
             flex-direction: row;
             justify-content: center;
             align-content: center;
-            height: 3rem;
+            height: 2.5rem;
             padding: 0 0.5rem 1rem 1rem;
+
+            @include mixins.desktop {
+                height: 3rem;
+            }
 
             .setting-icon {
                 height: 2rem;
