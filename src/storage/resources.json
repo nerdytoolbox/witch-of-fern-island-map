@@ -883,7 +883,7 @@
     "name": "Magical Chest",
     "type": "magicalChest",
     "seasons": [],
-    "moonPhase": "",
+    "moonPhase": "NonExistingMoonPhase",
     "image": "MagicalChest.png",
     "top": [62.9, 71.3, 78.3, 35.6, 36.9, 25.7, 41.7, 44.1, 54.5, 73.9, 71.1, 47.1, 53.7, 58.1,
       57, 61.8, 72.6, 75.3, 37, 32.3, 31.5, 25.4],
