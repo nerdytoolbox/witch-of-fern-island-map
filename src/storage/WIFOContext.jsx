@@ -7,10 +7,11 @@ export const WIFOProvider = ({ children }) => {
 
 	const [selectedSeason, setSelectedSeason] = useState("none");
 	const [resourceSettings, setResourceSettings] = useState({
-		herb: true,
-		vegetable: true,
-		mushroom: true,
-		flower: true,
+		herb: false,
+		vegetable: false,
+		mushroom: false,
+		flower: false,
+		fish: true,
 		oreLumber: false,
 		magicalChest: false,
 	});
@@ -24,6 +25,7 @@ export const WIFOProvider = ({ children }) => {
 
 	const [iconModalInfo, setIconModalInfo] = useState({
 		name: "",
+		type: "",
 		top: null,
 		left: null,
 		seasons: [],
@@ -93,6 +95,7 @@ export const WIFOProvider = ({ children }) => {
 					vegetable: false,
 					mushroom: false,
 					flower: false,
+					fish: resource === "fish",
 					oreLumber: resource === "oreLumber",
 					magicalChest: resource === "magicalChest",
 				})
@@ -100,10 +103,11 @@ export const WIFOProvider = ({ children }) => {
 		})
 	}
 
-	const handleOnIconClick = (name, top, left, seasons, moonPhase) => {
+	const handleOnIconClick = (name, type, top, left, seasons, moonPhase) => {
 		if (iconModalInfo.name === name) {
 			setIconModalInfo({
 				name: "",
+				type: "",
 				top: null,
 				left: null,
 				seasons: [],
@@ -112,6 +116,7 @@ export const WIFOProvider = ({ children }) => {
 		} else {
 			setIconModalInfo({
 				name: name,
+				type: type,
 				top: top,
 				left: left,
 				seasons: seasons,

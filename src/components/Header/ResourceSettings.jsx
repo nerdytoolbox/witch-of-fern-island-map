@@ -17,6 +17,8 @@ const ResourceSettings = () => {
 				<img src={IMAGE_PATH + "Flower.png"} alt="Flower" className={`setting-icon resource-icon${resourceSettings.flower ? "-selected" : ""}`}
 				     onClick={() => handleResourceToggle("flower")}/>
 			</div>
+			<img src={IMAGE_PATH + "Fish.png"} alt="Fish" className={`setting-icon resource-icon${resourceSettings.fish ? "-selected" : ""}`}
+			     onClick={() => handleResourceToggle("fish")}/>
 			<img src={IMAGE_PATH + "Lumber.png"} alt="Ore&Lumber" className={`setting-icon resource-icon${resourceSettings.oreLumber ? "-selected" : ""}`}
 			     onClick={() => handleResourceToggle("oreLumber")}/>
 			<img src={IMAGE_PATH + "MagicalChest.png"} alt="Magical Chest" className={`setting-icon resource-icon${resourceSettings.magicalChest ? "-selected" : ""}`}

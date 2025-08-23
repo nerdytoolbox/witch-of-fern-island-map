@@ -17,15 +17,15 @@ const ResourceIcons = () => {
 
 	// Filter data based on the selected options
 	const filteredData = resourceData.filter(resource => {
-		const nameMatch = resource.name.toLowerCase().includes(filterText.toLowerCase())
+		const nameMatch = resource.type === "fishPond" || resource.name.toLowerCase().includes(filterText.toLowerCase())
 		const seasonSelected = resource.seasons.length === 0 ? true : (selectedSeason !== "none" ? resource.seasons.includes(selectedSeason) : true)
 		const moonSelected = resource.moonPhase === "" ? true : (selectedMoon !== "none" ? resource.moonPhase === selectedMoon : true)
-		const resourceSelected = resourceSettings[resource.type]
+		const resourceSelected = resourceSettings[resource.type] || (resourceSettings["fish"] && resource.type === "fishPond")
 
 		return nameMatch && seasonSelected && moonSelected && resourceSelected
 	})
 
-	const flowerBeeData = filteredData.filter(resource => resource.flowerBee.length > 0)
+	const flowerBeeData = filteredData.filter(resource => resource.flowerBee?.length > 0)
 
 	return (
 		<>
@@ -41,7 +41,7 @@ const ResourceIcons = () => {
 						className={isBigMap ? "img-icon-large" : "img-icon"}
 						style={{top: resource.top[i] + "%", left: resource.left[i] + "%"}}
 						title={resource.name}
-						onClick={() => handleOnIconClick(resource.name, resource.top[i], resource.left[i], resource.seasons, resource.moonPhase)}
+						onClick={() => handleOnIconClick(resource.name, resource.type, resource.top[i], resource.left[i], resource.seasons, resource.moonPhase)}
 					/>)
 				}
 				return returnImg
