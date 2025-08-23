@@ -106,10 +106,13 @@
 
         @include mixins.mobile {
             margin-top: 0.5rem;
+            flex-direction: column;
+            gap: 0.5rem;
         }
 
         .checkbox-settings {
             margin-right: 0.5rem;
+            font-size: 0.8rem;
         }
 
         .hide-on-mobile {
