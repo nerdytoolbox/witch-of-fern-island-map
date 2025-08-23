@@ -37,7 +37,11 @@ const Header = () => {
 					<div><input type="checkbox" checked={showDevTools} onChange={handleDevToolsToggle}/> Show map position on click</div>
 				</div>
 			</div>
-			<div className="tool-footer"><a href="https://github.com/nerdytoolbox/witch-of-fern-island-map/issues/new?template=ISSUE_TEMPLATE.md">Report issues / Feature requests</a></div>
+			<div className="tool-footer">
+				<a href="https://witchoffernisland.wiki.gg/">Source wiki</a>
+				<span>&nbsp;|&nbsp;</span>
+				<a href="https://github.com/nerdytoolbox/witch-of-fern-island-map/issues/new?template=ISSUE_TEMPLATE.md">Report issues / Feature requests</a>
+			</div>
 		</div>
 	)
 }
