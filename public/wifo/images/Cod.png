@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html class="client-nojs view-unknown theme-none skin-theme-clientpref-day" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Cod - Official  The Witch of Fern Island Wiki</title>
+<script>(function(){var className="client-js view-unknown theme-none skin-theme-clientpref-day";var cookie=document.cookie.match(/(?:^|; )commons_enmwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"b501233c6824f40b9d70ae6b","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Cod","wgTitle":"Cod","wgCurRevisionId":22396,"wgRevisionId":22396,"wgArticleId":317,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Fish"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Cod","wgRelevantArticleId":317,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgCiteReferencePreviewsActive":true,"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"]};
+RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","mediawiki.page.gallery.styles":"ready","skins.vector.styles.legacy":"ready","wgg.skins.vector.styles.search":"ready","ext.CookieWarning.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","ext.removeredlinks.styles":"ready","ext.usergroupbadges.styles":"ready","ext.globalui.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","skins.vector.legacy.js","ext.CookieWarning","ext.removeredlinks","ext.themes.switcher","mmv.bootstrap","ext.checkUser.clientHints","ext.globalui"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.CookieWarning.styles%7Cext.globalui.styles%7Cext.removeredlinks.styles%7Cext.usergroupbadges.styles%7Cmediawiki.page.gallery.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.styles.legacy%7Cwgg.skins.vector.styles.search&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;skin=vector&amp;modules=ext.themes.apply&amp;only=scripts&amp;skin=vector&amp;raw=1"></script>
+<meta name="generator" content="MediaWiki 1.43.3">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Main source of food for many coastal villages.&#10;Northern Lights 200&#10;See our Fishing Spots guide for more information!&#10;[Back to Fish Page]">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0">
+<style type="text/css">@font-face {font-family:Nunito;font-style:normal;font-weight:400;src:url(/cf-fonts/v/nunito/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Nunito;font-style:normal;font-weight:400;src:url(/cf-fonts/v/nunito/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Nunito;font-style:normal;font-weight:400;src:url(/cf-fonts/v/nunito/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Nunito;font-style:normal;font-weight:400;src:url(/cf-fonts/v/nunito/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Nunito;font-style:normal;font-weight:400;src:url(/cf-fonts/v/nunito/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}</style>
+<link rel="apple-touch-icon" href="/images/4/4a/Site-favicon.ico">
+<link rel="icon" href="/images/4/4a/Site-favicon.ico?78b670">
+<link rel="shortcut icon" href="/images/4/4a/Site-favicon.ico?78b670">
+<link rel="search" type="application/opensearchdescription+xml" href="/rest.php/v1/search" title=" The Witch of Fern Island Wiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="https://witchoffernisland.wiki.gg/api.php?action=rsd">
+<link rel="canonical" href="https://witchoffernisland.wiki.gg/wiki/Cod">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0">
+<link rel="alternate" type="application/atom+xml" title=" The Witch of Fern Island Wiki Atom feed" href="/wiki/Special:RecentChanges?feed=atom">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cod">
+<meta property="og:site_name" content="&lt;pre&gt;The Witch of Fern Island Wiki&#10;&lt;/pre&gt;">
+<meta property="og:url" content="https://witchoffernisland.wiki.gg/wiki/Cod">
+<meta property="og:description" content="Main source of food for many coastal villages.&#10;Northern Lights 200&#10;See our Fishing Spots guide for more information!&#10;[Back to Fish Page]">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","name":"Cod - Official  The Witch of Fern Island Wiki","headline":"Cod - Official  The Witch of Fern Island Wiki","mainEntityOfPage":"Cod","url":"https://witchoffernisland.wiki.gg/wiki/Cod","description":"Main source of food for many coastal villages.\nNorthern Lights 200\nSee our Fishing Spots guide for more information!\n[Back to Fish Page]","datePublished":"2023-05-06T22:23:47Z","author":{"@type":"Organization","name":"Official  The Witch of Fern Island Wiki","url":"https://witchoffernisland.wiki.gg/","logo":{"@type":"ImageObject","url":"https://witchoffernisland.wiki.gg/images/e/e6/Site-logo.png?6f3c5a"}},"publisher":{"@type":"Organization","name":"wiki.gg","url":"https://wiki.gg","logo":{"@type":"ImageObject","url":"https://commons.wiki.gg/images/2/27/Network_header_logo.svg"},"sameAs":["https://bsky.app/profile/wiki.gg","https://www.youtube.com/@ggwikis","https://x.com/wikigg_official"]}}</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P68LVFKN');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body class="wgg-dom-version-1_43 skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Cod rootpage-Cod skin-vector action-view skin--responsive"><header id="wgg-netbar">
+	<div class="wgg-netbar__left">
+		<div class="wgg-netbar__logo">
+			<a href="/" aria-label="wiki.gg">
+				<img height=25 alt="wiki.gg logo" src="https://commons.wiki.gg/images/2/27/Network_header_logo.svg?feeba7">
+			</a>
+		</div>
+	</div>
+
+	<nav class="wgg-netbar__user-links" aria-label="Personal tools">
+		<div id="p-personal" class="mw-portlet mw-portlet-personal"  >
+		    
+		    <ul>
+		            <li id="pt-createaccount" class="mw-list-item wgg-netbar__desktop-only"><a data-mw="interface" class=""  href="/wiki/Special:CreateAccount?returnto=Cod" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li>
+		            <li id="pt-login" class="mw-list-item wgg-netbar__desktop-only"><a data-mw="interface" class=""  href="/wiki/Special:UserLogin?returnto=Cod" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		    </ul>
+		    
+		</div>
+
+		<div id="wgg-user-menu-overflow" class="wgg-netbar__dropdown wgg-netbar__mobile-only">
+			<input type="checkbox"
+				id="wgg-user-menu-overflow-checkbox"
+				role="button"
+				aria-haspopup="true"
+				aria-labelledby="wgg-user-menu-overflow-label"
+			>
+			<label
+				id="wgg-user-menu-overflow-label"
+		        for="wgg-user-menu-overflow-checkbox"
+				class="wgg-netbar__icon-button"
+			><span class="wgg-netbar-icon wgg-netbar-icon--overflow"></span><span>Toggle personal tools menu</span></label>
+
+			<div class="wgg-netbar__dropdown-content">
+				<div id="p-user-menu" class="mw-portlet mw-portlet-user-menu"  >
+				    
+				    <ul>
+				            <li id="pt-createaccount-overflow" class="mw-list-item wgg-netbar__mobile-only"><a data-mw="interface" class=""  href="/wiki/Special:CreateAccount?returnto=Cod" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li>
+				            <li id="pt-login-overflow" class="mw-list-item wgg-netbar__mobile-only"><a data-mw="interface" class=""  href="/wiki/Special:UserLogin?returnto=Cod" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+				    </ul>
+				    
+				</div>
+			</div>
+		</div>
+</nav>
+
+</header>
+
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div class="content-wrapper">
+	<div id="mw-navigation">
+		<h2>Navigation menu</h2>
+		<div id="mw-head">
+			<div id="left-navigation">
+				
+<div id="p-namespaces" class="mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy vectorTabs vector-menu" aria-labelledby="p-namespaces-label"  >
+	<h3
+		id="p-namespaces-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Namespaces</span>
+	</h3>
+	<div class="vector-menu-content body">
+		
+		<ul class="vector-menu-content-list menu">
+			
+			<li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/Cod" title="View the content page [c]" accesskey="c"><span>Page</span></a></li><li id="ca-talk" class="new mw-list-item"><a href="/wiki/Talk:Cod?action=edit&amp;redlink=1" rel="discussion" class="new" title="Discussion about the content page (page does not exist) [t]" accesskey="t"><span>Discussion</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+				
+<div id="p-variants" class="mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown vector-menu" aria-labelledby="p-variants-label"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content body">
+		
+		<ul class="vector-menu-content-list menu">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+			</div>
+			<div id="right-navigation">
+				
+<div id="p-views" class="mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy vectorTabs vector-menu" aria-labelledby="p-views-label"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content body">
+		
+		<ul class="vector-menu-content-list menu">
+			
+			<li id="ca-view" class="selected mw-list-item"><a href="/wiki/Cod"><span>Read</span></a></li><li id="ca-edit" class="mw-list-item"><a href="/wiki/Special:CreateAccount?warning=accountrequiredtoedit&amp;returnto=Cod&amp;returntoquery=action%3Dedit" title="Edit this page [e]" accesskey="e"><span>Sign up to edit</span></a></li><li id="ca-viewsource" class="mw-list-item"><a href="/wiki/Cod?action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e"><span>View source</span></a></li><li id="ca-history" class="mw-list-item"><a href="/wiki/Cod?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+				
+<div id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet vectorMenu vector-menu-dropdown vector-menu" aria-labelledby="p-cactions-label"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content body">
+		
+		<ul class="vector-menu-content-list menu">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<h3 >Search</h3>
+	<form action="/wiki/Special:Search" id="searchform" class="vector-search-box-form">
+		<div id="simpleSearch"
+			class="vector-search-box-inner"
+			 data-search-loc="header-navigation">
+			<input class="vector-search-box-input"
+				 type="search" name="search" placeholder="Search  The Witch of Fern Island Wiki" aria-label="Search  The Witch of Fern Island Wiki" autocapitalize="sentences" spellcheck="false" title="Search  The Witch of Fern Island Wiki [f]" accesskey="f" id="searchInput"
+			>
+			<input id="mw-searchButton"
+				 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search the pages for this text" value="Search">
+			<input id="searchButton"
+				 class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go">
+		</div>
+	</form>
+</div>
+
+			</div>
+		</div>
+		
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<div id="p-navigation" class="mw-portlet mw-portlet-navigation vector-menu-portal portal vector-menu" aria-labelledby="p-navigation-label"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content body">
+		
+		<ul class="vector-menu-content-list menu">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-Tips-&amp;-Tricks" class="mw-list-item"><a href="/wiki/Tips_and_Tricks_for_Every_Witch"><span>Tips &amp; Tricks</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-Steam" class="mw-portlet mw-portlet-Steam vector-menu-portal portal vector-menu" aria-labelledby="p-Steam-label"  >
+	<h3
+		id="p-Steam-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Steam</span>
+	</h3>
+	<div class="vector-menu-content body">
+		
+		<ul class="vector-menu-content-list menu">
+			
+			<li id="n-DLC" class="mw-list-item"><a href="/wiki/DLC"><span>DLC</span></a></li><li id="n-Steam-Achievements" class="mw-list-item"><a href="/wiki/Steam_Achievements"><span>Steam Achievements</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-Express_Yourself" class="mw-portlet mw-portlet-Express_Yourself vector-menu-portal portal vector-menu" aria-labelledby="p-Express_Yourself-label"  >
+	<h3
+		id="p-Express_Yourself-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Express Yourself</span>
+	</h3>
+	<div class="vector-menu-content body">
+		
+		<ul class="vector-menu-content-list menu">
+			
+			<li id="n-Beauty-Salon" class="mw-list-item"><a href="/wiki/Beauty_Salon"><span>Beauty Salon</span></a></li><li id="n-Boutique" class="mw-list-item"><a href="/wiki/Boutique"><span>Boutique</span></a></li><li id="n-Clothing-Gallery" class="mw-list-item"><a href="/wiki/Clothing_Gallery"><span>Clothing Gallery</span></a></li><li id="n-Furniture-Shop" class="mw-list-item"><a href="/wiki/Furniture_Shop"><span>Furniture Shop</span></a></li><li id="n-Outdoor-Furniture-&amp;-Accessories" class="mw-list-item"><a href="/wiki/Outdoor_Furniture_%26_Accessories"><span>Outdoor Furniture &amp; Accessories</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-Magic" class="mw-portlet mw-portlet-Magic vector-menu-portal portal vector-menu" aria-labelledby="p-Magic-label"  >
+	<h3
+		id="p-Magic-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Magic</span>
+	</h3>
+	<div class="vector-menu-content body">
+		
+		<ul class="vector-menu-content-list menu">
+			
+			<li id="n-Altars-&amp;-Rituals" class="mw-list-item"><a href="/wiki/Altars_%26_Rituals"><span>Altars &amp; Rituals</span></a></li><li id="n-Amulets-&amp;-Talismans" class="mw-list-item"><a href="/wiki/Amulets_%26_Talismans"><span>Amulets &amp; Talismans</span></a></li><li id="n-Astra-Realm" class="mw-list-item"><a href="/wiki/Astra_Realm"><span>Astra Realm</span></a></li><li id="n-Potions" class="mw-list-item"><a href="/wiki/Potions"><span>Potions</span></a></li><li id="n-Witch-Exam" class="mw-list-item"><a href="/wiki/Witch_Exam"><span>Witch Exam</span></a></li><li id="n-Witch&#039;s-Mansion" class="mw-list-item"><a href="/wiki/Witch%27s_Mansion"><span>Witch&#039;s Mansion</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-World" class="mw-portlet mw-portlet-World vector-menu-portal portal vector-menu" aria-labelledby="p-World-label"  >
+	<h3
+		id="p-World-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">World</span>
+	</h3>
+	<div class="vector-menu-content body">
+		
+		<ul class="vector-menu-content-list menu">
+			
+			<li id="n-Animals" class="mw-list-item"><a href="/wiki/Animals"><span>Animals</span></a></li><li id="n-Calendar-&amp;-Events" class="mw-list-item"><a href="/wiki/Calendar_%26_Events"><span>Calendar &amp; Events</span></a></li><li id="n-Characters" class="mw-list-item"><a href="/wiki/Characters"><span>Characters</span></a></li><li id="n-Crafting-&amp;-Resources" class="mw-list-item"><a href="/wiki/Crafting_%26_Resources"><span>Crafting &amp; Resources</span></a></li><li id="n-Essences" class="mw-list-item"><a href="/wiki/Essence_Extractor"><span>Essences</span></a></li><li id="n-Exploration" class="mw-list-item"><a href="/wiki/Exploration"><span>Exploration</span></a></li><li id="n-Gifting" class="mw-list-item"><a href="/wiki/Gifting"><span>Gifting</span></a></li><li id="n-Magical-Chests" class="mw-list-item"><a href="/wiki/Magical_Chests"><span>Magical Chests</span></a></li><li id="n-Museum" class="mw-list-item"><a href="/wiki/Museum"><span>Museum</span></a></li><li id="n-Plants" class="mw-list-item"><a href="/wiki/Plants"><span>Plants</span></a></li><li id="n-Quests-&amp;-Puzzles" class="mw-list-item"><a href="/wiki/Quests_%26_Puzzles"><span>Quests &amp; Puzzles</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="mw-portlet mw-portlet-tb vector-menu-portal portal vector-menu" aria-labelledby="p-tb-label"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content body">
+		
+		<ul class="vector-menu-content-list menu">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Cod" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Cod" rel="nofollow" title="Recent changes in pages linked from this page"><span>Related changes</span></a></li><li id="t-newpage" class="mw-list-item"><a href="/wiki/Special:NewPage" accesskey="]"><span>New page</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-info" class="mw-list-item"><a href="/wiki/Cod?action=info" title="More information about this page"><span>Page information</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+</div>
+
+	</div>
+	<div id="content" class="mw-body" role="main">
+		<aside id="wikigg-sl-header" data-mw="WggShowcaseLayout">
+        <div
+            class="wikigg-showcase__unit wikigg-showcase__reserved--lb"
+            data-wgg-unit-type="internal"
+        ></div>
+</aside>
+
+		<div class="content-body">
+			<main>
+				<a id="top"></a>
+				<div id="siteNotice"></div>
+				<div class="mw-indicators">
+				</div>
+				<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Cod</span></h1>
+				<div id="bodyContent" class="vector-body">
+					<div id="siteSub" class="noprint">From  The Witch of Fern Island Wiki</div>
+					<div id="contentSub"></div>
+					<div id="contentSub2"></div>
+					
+					<div id="jump-to-nav"></div>
+					<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+					<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><div style="border-style:solid; border-color:#a97b36; border-width:8px; background:#ffe7b6;float:right;margin-left:1em;"><a href="/wiki/File:Cod.png" class="image"><img alt="Cod.png" src="/images/thumb/4/41/Cod.png/250px-Cod.png?15d2fa" decoding="async" loading="lazy" width="250" height="250" data-file-width="256" data-file-height="256" /></a></div>
+<p><i>Main source of food for many coastal villages.</i>
+<br /><a href="/wiki/File:Live_1.0_Icon_.png" class="image"><img alt="Live 1.0 Icon .png" src="/images/thumb/4/4a/Live_1.0_Icon_.png/75px-Live_1.0_Icon_.png?cb462d" decoding="async" loading="lazy" width="75" height="75" data-file-width="100" data-file-height="100" /></a>
+</p>
+<table class="wikitable" style="text-align: center;">
+
+<tbody><tr>
+<th>Classification
+</th>
+<th>Essence Type
+</th>
+<th>Best Moon Phase
+</th>
+<th>Seasons Grown
+</th>
+<th>Bait
+</th></tr>
+<tr>
+<td>Fish</td>
+<td><a href="/wiki/Earth_Essence" title="Earth Essence"><img alt="Essence brown.png" src="/images/thumb/a/aa/Essence_brown.png/40px-Essence_brown.png?edb2b6" decoding="async" loading="lazy" width="40" height="40" data-file-width="256" data-file-height="256" /></a></td>
+<td><a href="/wiki/File:Full_moon.png" class="image" title="Full Moon"><img alt="Full Moon" src="/images/thumb/e/e2/Full_moon.png/30px-Full_moon.png?7b8e2c" decoding="async" loading="lazy" width="30" height="30" data-file-width="233" data-file-height="233" /></a></td>
+<td><a href="/wiki/File:Season_icon_bask.png" class="image" title="Bask"><img alt="Bask" src="/images/thumb/9/9a/Season_icon_bask.png/30px-Season_icon_bask.png?4aa369" decoding="async" loading="lazy" width="30" height="30" data-file-width="512" data-file-height="512" /></a> <a href="/wiki/File:Season_icon_harvest.png" class="image" title="Harvest"><img alt="Harvest" src="/images/thumb/0/0f/Season_icon_harvest.png/30px-Season_icon_harvest.png?46a9f8" decoding="async" loading="lazy" width="30" height="30" data-file-width="512" data-file-height="512" /></a> <a href="/wiki/File:Season_icon_reverie.png" class="image" title="Reverie"><img alt="Reverie" src="/images/thumb/d/d6/Season_icon_reverie.png/30px-Season_icon_reverie.png?a2cc08" decoding="async" loading="lazy" width="30" height="30" data-file-width="512" data-file-height="512" /></a> <a href="/wiki/File:Season_icon_frost.png" class="image" title="Frost"><img alt="Frost" src="/images/thumb/b/b4/Season_icon_frost.png/30px-Season_icon_frost.png?4cbbef" decoding="async" loading="lazy" width="30" height="30" data-file-width="512" data-file-height="512" /></a></td>
+<td><a href="/wiki/Sweet_Dough_Bait" title="Sweet Dough Bait"><img alt="Dough bait orange.png" src="/images/thumb/6/64/Dough_bait_orange.png/40px-Dough_bait_orange.png?74549a" decoding="async" loading="lazy" width="40" height="40" data-file-width="256" data-file-height="256" /></a> <a href="/wiki/Spicy_Dough_Bait" title="Spicy Dough Bait"><img alt="Dough bait red.png" src="/images/thumb/c/c0/Dough_bait_red.png/40px-Dough_bait_red.png?bf2ee8" decoding="async" loading="lazy" width="40" height="40" data-file-width="256" data-file-height="256" /></a>
+</td></tr>
+<tr>
+<th colspan="5">Sells for <img alt="Icon Coins.png" src="/images/thumb/7/7b/Icon_Coins.png/30px-Icon_Coins.png?908d58" decoding="async" loading="lazy" width="30" height="30" data-file-width="128" data-file-height="128" />
+</th></tr>
+<tr>
+<th>Normal <img alt="Q1.png" src="/images/thumb/d/d5/Q1.png/30px-Q1.png?4b1e27" decoding="async" loading="lazy" width="30" height="30" data-file-width="256" data-file-height="256" />
+</th>
+<th>Good <img alt="Q2.png" src="/images/thumb/a/a0/Q2.png/30px-Q2.png?6dea93" decoding="async" loading="lazy" width="30" height="30" data-file-width="256" data-file-height="256" />
+</th>
+<th>Excellent <img alt="Q3.png" src="/images/thumb/2/21/Q3.png/30px-Q3.png?fe711f" decoding="async" loading="lazy" width="30" height="30" data-file-width="256" data-file-height="256" />
+</th>
+<th colspan="2">Master <img alt="Q4.png" src="/images/thumb/2/20/Q4.png/30px-Q4.png?177d64" decoding="async" loading="lazy" width="30" height="30" data-file-width="256" data-file-height="256" />
+</th></tr>
+<tr>
+<td><img alt="Icon Coins.png" src="/images/thumb/7/7b/Icon_Coins.png/30px-Icon_Coins.png?908d58" decoding="async" loading="lazy" width="30" height="30" data-file-width="128" data-file-height="128" />50</td>
+<td><img alt="Icon Coins.png" src="/images/thumb/7/7b/Icon_Coins.png/30px-Icon_Coins.png?908d58" decoding="async" loading="lazy" width="30" height="30" data-file-width="128" data-file-height="128" />75</td>
+<td><img alt="Icon Coins.png" src="/images/thumb/7/7b/Icon_Coins.png/30px-Icon_Coins.png?908d58" decoding="async" loading="lazy" width="30" height="30" data-file-width="128" data-file-height="128" />100</td>
+<td colspan="2"><img alt="Icon Coins.png" src="/images/thumb/7/7b/Icon_Coins.png/30px-Icon_Coins.png?908d58" decoding="async" loading="lazy" width="30" height="30" data-file-width="128" data-file-height="128" />150
+</td></tr>
+
+</tbody></table>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Location">Location</span></h2>
+<ul><li><a href="/wiki/Northern_Lights" title="Northern Lights">Northern Lights</a> <a href="/wiki/File:Icon_Coins.png" class="image"><img alt="Icon Coins.png" src="/images/thumb/7/7b/Icon_Coins.png/30px-Icon_Coins.png?908d58" decoding="async" loading="lazy" width="30" height="30" data-file-width="128" data-file-height="128" /></a>200</li>
+<li>See our <b><a href="/wiki/Fishing_Spots" title="Fishing Spots">Fishing Spots</a></b> guide for more information!</li></ul>
+<h2><span class="mw-headline" id="Recipes_Used">Recipes Used</span></h2>
+<ul class="gallery mw-gallery-nolines">
+		<li class="gallerybox" style="width: 130px"><div style="width: 130px">
+			<div class="thumb" style="width: 125px;"><div style="margin:0px auto;"><a href="/wiki/Fish_and_Chips" title="Fish and Chips"><img alt="Fish and Chips" src="/images/thumb/3/3b/Fish_and_chips.png/75px-Fish_and_chips.png?b1e51f" decoding="async" loading="lazy" width="75" height="75" data-file-width="256" data-file-height="256" /></a></div></div>
+			<div class="gallerytext"><a href="/wiki/Fish_and_Chips" title="Fish and Chips">Fish and Chips</a></div>
+		</div></li>
+		<li class="gallerybox" style="width: 130px"><div style="width: 130px">
+			<div class="thumb" style="width: 125px;"><div style="margin:0px auto;"><a href="/wiki/Fish_Stew" title="Fish Stew"><img alt="Fish Stew" src="/images/thumb/8/8d/Fish_soup.png/75px-Fish_soup.png?5c4522" decoding="async" loading="lazy" width="75" height="75" data-file-width="256" data-file-height="256" /></a></div></div>
+			<div class="gallerytext"><a href="/wiki/Fish_Stew" title="Fish Stew">Fish Stew</a></div>
+		</div></li>
+		<li class="gallerybox" style="width: 130px"><div style="width: 130px">
+			<div class="thumb" style="width: 125px;"><div style="margin:0px auto;"><a href="/wiki/Grilled_Fish" title="Grilled Fish"><img alt="Grilled Fish" src="/images/thumb/0/00/Grilled_fish.png/75px-Grilled_fish.png?4849d4" decoding="async" loading="lazy" width="75" height="75" data-file-width="256" data-file-height="256" /></a></div></div>
+			<div class="gallerytext"><a href="/wiki/Grilled_Fish" title="Grilled Fish">Grilled Fish</a></div>
+		</div></li>
+		<li class="gallerybox" style="width: 130px"><div style="width: 130px">
+			<div class="thumb" style="width: 125px;"><div style="margin:0px auto;"><a href="/wiki/Livrian_Pasta" title="Livrian Pasta"><img alt="Livrian Pasta" src="/images/thumb/c/cf/Livrian_pasta.png/75px-Livrian_pasta.png?beabff" decoding="async" loading="lazy" width="75" height="75" data-file-width="256" data-file-height="256" /></a></div></div>
+			<div class="gallerytext"><a href="/wiki/Livrian_Pasta" title="Livrian Pasta">Livrian Pasta</a></div>
+		</div></li>
+		<li class="gallerybox" style="width: 130px"><div style="width: 130px">
+			<div class="thumb" style="width: 125px;"><div style="margin:0px auto;"><a href="/wiki/Skewer" title="Skewer"><img alt="Skewer" src="/images/thumb/4/47/Skewer.png/75px-Skewer.png?e6cb16" decoding="async" loading="lazy" width="75" height="75" data-file-width="256" data-file-height="256" /></a></div></div>
+			<div class="gallerytext"><a href="/wiki/Skewer" title="Skewer">Skewer</a></div>
+		</div></li>
+		<li class="gallerybox" style="width: 130px"><div style="width: 130px">
+			<div class="thumb" style="width: 125px;"><div style="margin:0px auto;"><a href="/wiki/Spicy_Fish" title="Spicy Fish"><img alt="Spicy Fish" src="/images/thumb/0/01/Spicy_eels.png/75px-Spicy_eels.png?aa9a1c" decoding="async" loading="lazy" width="75" height="75" data-file-width="256" data-file-height="256" /></a></div></div>
+			<div class="gallerytext"><a href="/wiki/Spicy_Fish" title="Spicy Fish">Spicy Fish</a></div>
+		</div></li>
+		<li class="gallerybox" style="width: 130px"><div style="width: 130px">
+			<div class="thumb" style="width: 125px;"><div style="margin:0px auto;"><a href="/wiki/Stuffed_Peppers" title="Stuffed Peppers"><img alt="Stuffed Peppers" src="/images/thumb/2/2c/Stuffed_peppers.png/75px-Stuffed_peppers.png?f1505d" decoding="async" loading="lazy" width="75" height="75" data-file-width="256" data-file-height="256" /></a></div></div>
+			<div class="gallerytext"><a href="/wiki/Stuffed_Peppers" title="Stuffed Peppers">Stuffed Peppers</a></div>
+		</div></li>
+</ul>
+<h2><span class="mw-headline" id="Rituals_Used">Rituals Used</span></h2>
+<ul class="gallery mw-gallery-nolines">
+		<li class="gallerybox" style="width: 130px"><div style="width: 130px">
+			<div class="thumb" style="width: 125px;"><div style="margin:0px auto;"><a href="/wiki/Chef%27s_Ritual" title="Chef&#39;s Ritual"><img alt="Chef&#39;s Ritual" src="/images/thumb/c/c0/Ritual_baking.png/75px-Ritual_baking.png?5e2fcf" decoding="async" loading="lazy" width="75" height="75" data-file-width="256" data-file-height="256" /></a></div></div>
+			<div class="gallerytext"><a href="/wiki/Chef%27s_Ritual" title="Chef&#39;s Ritual">Chef's Ritual</a></div>
+		</div></li>
+		<li class="gallerybox" style="width: 130px"><div style="width: 130px">
+			<div class="thumb" style="width: 125px;"><div style="margin:0px auto;"><a href="/wiki/Teleport_to_Lake" title="Teleport to Lake"><img alt="Teleport to Lake" src="/images/thumb/1/1d/Teleport_lake.png/75px-Teleport_lake.png?6108a9" decoding="async" loading="lazy" width="75" height="75" data-file-width="256" data-file-height="256" /></a></div></div>
+			<div class="gallerytext"><a href="/wiki/Teleport_to_Lake" title="Teleport to Lake">Teleport to Lake</a> </div>
+		</div></li>
+		<li class="gallerybox" style="width: 130px"><div style="width: 130px">
+			<div class="thumb" style="width: 125px;"><div style="margin:0px auto;"><a href="/wiki/Weather_Prediction" title="Weather Prediction"><img alt="Weather Prediction" src="/images/thumb/6/65/Weather_prediction.png/75px-Weather_prediction.png?3f7a5a" decoding="async" loading="lazy" width="75" height="75" data-file-width="256" data-file-height="256" /></a></div></div>
+			<div class="gallerytext"><a href="/wiki/Weather_Prediction" title="Weather Prediction">Weather Prediction</a>    </div>
+		</div></li>
+</ul>
+<p><br />
+[<a class="text" href="https://witchoffernisland.wiki.gg/wiki/Fish">Back to Fish Page</a>]
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20250816015923
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: [no‐toc]
+CPU time usage: 0.075 seconds
+Real time usage: 0.412 seconds
+Preprocessor visited node count: 99/1000000
+Revision size: 1555/4194304 bytes
+Post‐expand include size: 1263/4194304 bytes
+Template argument size: 399/4194304 bytes
+Highest expansion depth: 4/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4901/10000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   10.173      1 -total
+ 73.73%    7.500      1 Template:Fishie_Page
+ 25.11%    2.555      1 Template:Thumb
+-->
+
+<!-- Saved in parser cache with key witchoffernisland_en:pcache:idhash:317-0!canonical and timestamp 20250816015923 and revision id 22396. Rendering was triggered because: page-view
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://witchoffernisland.wiki.gg/wiki/Cod?oldid=22396">https://witchoffernisland.wiki.gg/wiki/Cod?oldid=22396</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/Category:Fish" title="Category:Fish">Fish</a></li></ul></div></div>
+				</div>
+			</main>
+			<aside id="wikigg-sl-rail" data-mw="WggShowcaseLayout">
+        <div
+            class="wikigg-showcase__unit wikigg-showcase__reserved--mrec"
+            data-wgg-unit-type="pubco"
+        ><div id="nn_mpu1"></div></div>
+        <div
+            class="wikigg-showcase__unit wikigg-showcase__reserved--mrec"
+            data-wgg-unit-type="internal"
+        ></div>
+        <div
+            class="wikigg-showcase__unit wikigg-showcase__reserved--mrec"
+            data-wgg-unit-type="pubco"
+        ><div id="nn_mpu2"></div></div>
+        <div class="wikigg-showcase__report-link">
+            <a href="https://www.wiki.gg/t/bad-ad" target="_blank" rel="nofollow">Report bad advertisement</a>
+        </div>
+</aside>
+
+		</div>
+		<aside id="wikigg-sl-footer" data-mw="WggShowcaseLayout">
+        <div
+            class="wikigg-showcase__unit wikigg-showcase__reserved--lb"
+            data-wgg-unit-type="internal"
+        ></div>
+</aside>
+
+	</div>
+</div>
+<div id='mw-data-after-content'>
+	
+</div>
+
+
+<footer id="footer" class="mw-footer" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 18 March 2024, at 18:13.</li>
+	<li id="footer-info-copyright"><div class="wikigg-copyright-box">Page content is under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-sa/3.0">Creative Commons Attribution-ShareAlike 3.0 License</a> unless otherwise noted.</div></li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-wikigg-tos"><a href="https://www.indie.io/terms-of-service">Terms of Service</a></li>
+	<li id="footer-places-wikigg-privacy"><a href="https://www.indie.io/privacy-policy">Privacy policy</a></li>
+	<li id="footer-places-wikigg-support"><a href="https://support.wiki.gg">Support Wiki</a></li>
+	<li id="footer-places-wikigg-servicedesk"><a href="https://wiki.gg/go/servicedesk">Send a ticket to wiki.gg</a></li>
+	<li id="footer-places-wikigg-statuspage"><a href="https://wikiggstatus.com">Status page</a></li>
+	<li id="footer-places-wikigg-pcmp"><a href="#" class="nn-cmp-show" style="display: none">Manage cookie settings</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-sa/3.0" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><img src="https://commons.wiki.gg/images/1/14/CC-BY-SA_footer_badge.svg?d931d3" alt="Creative Commons Attribution-ShareAlike 3.0 License" height="31" width="88" loading="lazy" data-theme="light"><img src="https://commons.wiki.gg/images/7/71/CC-BY-SA_footer_badge_dark.svg?55845c" alt="Creative Commons Attribution-ShareAlike 3.0 License" height="31" width="88" loading="lazy" data-theme="dark"></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><img src="https://commons.wiki.gg/images/2/21/MediaWiki_footer_badge.svg?8c3a36" alt="Powered by MediaWiki" width="88" height="31" loading="lazy" data-theme="light"><img src="https://commons.wiki.gg/images/1/1c/MediaWiki_footer_badge_dark.svg?12ec0a" alt="Powered by MediaWiki" width="88" height="31" loading="lazy" data-theme="dark"></a></li>
+	<li id="footer-partofico"><a href="https://wiki.gg" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><img src="https://commons.wiki.gg/images/d/d1/Network_footer_badge.svg?9d5a96" alt="Part of wiki.gg" height="31" width="88" loading="lazy" data-theme="light"><img src="https://commons.wiki.gg/images/2/23/Network_footer_badge_dark.svg?9cf3e8" alt="Part of wiki.gg" height="31" width="88" loading="lazy" data-theme="dark"></a></li>
+</ul>
+
+</footer>
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":105,"wgPageParseReport":{"limitreport":{"cputime":"0.075","walltime":"0.412","ppvisitednodes":{"value":99,"limit":1000000},"revisionsize":{"value":1555,"limit":4194304},"postexpandincludesize":{"value":1263,"limit":4194304},"templateargumentsize":{"value":399,"limit":4194304},"expansiondepth":{"value":4,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":4901,"limit":10000000},"timingprofile":["100.00%   10.173      1 -total"," 73.73%    7.500      1 Template:Fishie_Page"," 25.11%    2.555      1 Template:Thumb"]},"cachereport":{"timestamp":"20250816015923","ttl":2592000,"transientcontent":false}}});});</script>
+</body>
+</html>
