@@ -907,8 +907,8 @@
     "seasons": [],
     "moonPhase": "WaxingCrescent",
     "image": "MagicalChestMoon.png",
-    "top": [63.8, 73, 57.4, 75],
-    "left": [68.2, 69.9, 20.3, 63.2],
+    "top": [63.8, 73, 57.4, 75, 17.6],
+    "left": [68.2, 69.9, 20.3, 63.2, 55.6],
     "flowerBee": []
   },
   {
@@ -917,8 +917,8 @@
     "seasons": [],
     "moonPhase": "FirstQuarter",
     "image": "MagicalChestMoon.png",
-    "top": [36.2, 43.1, 56.6, 75.9, 17.6, 13.4],
-    "left": [45.3, 44.5, 32.6, 25, 55.6, 49.2],
+    "top": [36.2, 43.1, 56.6, 75.9, 13.4],
+    "left": [45.3, 44.5, 32.6, 25, 49.2],
     "flowerBee": []
   },
   {
@@ -947,8 +947,8 @@
     "seasons": [],
     "moonPhase": "WaningGibbous",
     "image": "MagicalChestMoon.png",
-    "top": [58.1, 63.7, 71.3, 31.7, 50.3, 18.6],
-    "left": [66.1, 76.5, 79.8, 62, 52.6, 23.4],
+    "top": [58.1, 63.7, 71.3, 31.7, 50.3, 18.6, 30.7],
+    "left": [66.1, 76.5, 79.8, 62, 52.6, 23.4, 44.3],
     "flowerBee": []
   },
   {
@@ -957,8 +957,8 @@
     "seasons": [],
     "moonPhase": "LastQuarter",
     "image": "MagicalChestMoon.png",
-    "top": [60.5, 30.7, 23.8, 23.3],
-    "left": [3, 44.3, 36.4, 27.9],
+    "top": [60.5, 23.8, 23.3],
+    "left": [3, 36.4, 27.9],
     "flowerBee": []
   },
   {
