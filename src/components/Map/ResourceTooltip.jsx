@@ -17,7 +17,7 @@ const ResourceTooltip = () => {
 				zIndex: 20,
 			}}
 		>
-			{iconModalInfo.seasons.map(season => <img key={season} className="modal-icon-img" src={IMAGE_PATH + season +  ".png"} alt={season} style={{ height: isBigMap ? "20px" : "10px"}} />)}
+			{iconModalInfo.type !== "fishPond" && iconModalInfo.seasons.map(season => <img key={season} className="modal-icon-img" src={IMAGE_PATH + season +  ".png"} alt={season} style={{ height: isBigMap ? "20px" : "10px"}} />)}
 			{iconModalInfo.name}
 			<img src={IMAGE_PATH + iconModalInfo.moonPhase + ".png"} className="modal-icon-img" alt={iconModalInfo.moonPhase} style={{ height: isBigMap ? "20px" : "10px"}} />
 		</div>
