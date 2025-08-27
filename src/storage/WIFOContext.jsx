@@ -30,6 +30,7 @@ export const WIFOProvider = ({ children }) => {
 		left: null,
 		seasons: [],
 		moonPhase: null,
+		bait: null,
 	});
 	const [clickedPosition, setClickedPosition] = useState({ x: null, y: null });
 	const imageRef = useRef(null)
@@ -104,8 +105,8 @@ export const WIFOProvider = ({ children }) => {
 		})
 	}
 
-	const handleOnIconClick = (name, type, top, left, seasons, moonPhase) => {
-		if (iconModalInfo.name === name) {
+	const handleOnIconClick = (resource, top, left) => {
+		if (iconModalInfo.name === resource.name) {
 			setIconModalInfo({
 				name: "",
 				type: "",
@@ -113,15 +114,17 @@ export const WIFOProvider = ({ children }) => {
 				left: null,
 				seasons: [],
 				moonPhase: null,
+				bait: null,
 			})
 		} else {
 			setIconModalInfo({
-				name: name,
-				type: type,
+				name: resource.name,
+				type: resource.type,
 				top: top,
 				left: left,
-				seasons: seasons,
-				moonPhase: moonPhase,
+				seasons: resource.seasons,
+				moonPhase: resource.moonPhase,
+				bait: resource.type === "fish" ? resource.bait : null,
 			})
 		}
 	}

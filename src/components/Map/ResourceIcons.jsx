@@ -41,7 +41,7 @@ const ResourceIcons = () => {
 						className={isBigMap ? "img-icon-large" : "img-icon"}
 						style={{top: resource.top[i] + "%", left: resource.left[i] + "%"}}
 						title={resource.name}
-						onClick={() => handleOnIconClick(resource.name, resource.type, resource.top[i], resource.left[i], resource.seasons, resource.moonPhase)}
+						onClick={() => handleOnIconClick(resource, resource.top[i], resource.left[i])}
 					/>)
 				}
 				return returnImg

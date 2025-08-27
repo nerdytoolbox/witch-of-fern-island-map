@@ -19,6 +19,7 @@ const ResourceTooltip = () => {
 		>
 			{iconModalInfo.type !== "fishPond" && iconModalInfo.seasons.map(season => <img key={season} className="modal-icon-img" src={IMAGE_PATH + season +  ".png"} alt={season} style={{ height: isBigMap ? "20px" : "10px"}} />)}
 			{iconModalInfo.name}
+			{iconModalInfo.type === "fish" && iconModalInfo.bait.map(bait => <img key={bait} className="modal-icon-img" src={IMAGE_PATH + bait + ".png"} alt={bait} style={{ height: isBigMap ? "20px" : "10px"}} />)}
 			<img src={IMAGE_PATH + iconModalInfo.moonPhase + ".png"} className="modal-icon-img" alt={iconModalInfo.moonPhase} style={{ height: isBigMap ? "20px" : "10px"}} />
 		</div>
 	))
