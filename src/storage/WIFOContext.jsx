@@ -7,11 +7,11 @@ export const WIFOProvider = ({ children }) => {
 
 	const [selectedSeason, setSelectedSeason] = useState("none");
 	const [resourceSettings, setResourceSettings] = useState({
-		herb: false,
-		vegetable: false,
-		mushroom: false,
-		flower: false,
-		fish: true,
+		herb: true,
+		vegetable: true,
+		mushroom: true,
+		flower: true,
+		fish: false,
 		oreLumber: false,
 		magicalChest: false,
 	});
