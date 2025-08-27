@@ -86,6 +86,7 @@ export const WIFOProvider = ({ children }) => {
 				return ({
 					...prevSettings,
 					[resource]: !prevSettings[resource],
+					fish: false,
 					oreLumber: false,
 					magicalChest: false,
 				})
