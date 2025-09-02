@@ -11,6 +11,7 @@ const ResourceIcons = () => {
 		selectedMoon,
 		filterText,
 		showFlowerBee,
+		handleFlowerBeeToggle,
 		isBigMap,
 		handleOnIconClick,
 	} = useContext(WIFOContext)
@@ -47,28 +48,27 @@ const ResourceIcons = () => {
 				return returnImg
 			})}
 
-			{showFlowerBee && flowerBeeData.length > 0 && (
-				<div
-					className="flower-bee-info"
-					style={{
-						position: 'absolute',
-						top: "1%",
-						left: "1%",
-						fontSize: isBigMap ? '1.2rem' : '0.6rem',
-						pointerEvents: 'none',
-						zIndex: 8,
-					}}
-				>
-					<span className="flower-bee-title">Flower Bee (seasons show when seeds can be bought)</span>
-					{flowerBeeData.map(seed => (
-						<div key={seed.name} className="flower-bee-seed">
-							<img src={IMAGE_PATH + seed.moonPhase +  ".png"} alt={seed.moonPhase} style={{ height: isBigMap ? "20px" : "10px"}} />
-							{seed.name}
-							{seed.flowerBee.map(season => <img key={season} src={IMAGE_PATH + season +  ".png"} alt={season} style={{ height: isBigMap ? "20px" : "10px"}} />)}
-						</div>
-					))}
-				</div>
-			)}
+
+			<div
+				className="flower-bee-info"
+				style={{
+					position: 'absolute',
+					top: "1%",
+					left: "1%",
+					fontSize: isBigMap ? '1.2rem' : '0.6rem',
+					zIndex: 8,
+				}}
+			>
+				<div className="flower-bee-title"><input type="checkbox" checked={showFlowerBee} onChange={handleFlowerBeeToggle} className="flower-bee-title" /> Flower Bee (seasons show when seeds can be bought)</div>
+				{showFlowerBee && flowerBeeData.length > 0 && flowerBeeData.map(seed => (
+							<div key={seed.name} className="flower-bee-seed">
+								<img src={IMAGE_PATH + seed.moonPhase +  ".png"} alt={seed.moonPhase} style={{ height: isBigMap ? "20px" : "10px"}} />
+								{seed.name}
+								{seed.flowerBee.map(season => <img key={season} src={IMAGE_PATH + season +  ".png"} alt={season} style={{ height: isBigMap ? "20px" : "10px"}} />)}
+							</div>
+						)
+				)}
+			</div>
 		</>
 
 	)
