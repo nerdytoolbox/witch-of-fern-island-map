@@ -6,8 +6,11 @@ import { Hub } from "nerdy-lib";
 import { WIFOContext } from "./storage/WIFOContext.jsx";
 import Header from "./components/Header/Header.jsx";
 import Map from "./components/Map/Map.jsx";
+import { CookieModal, useAnalyticsConsent } from "nerdy-lib";
 
 const WIFO = () => {
+	useAnalyticsConsent()
+
   const { setResourceData, isBigMap } = useContext(WIFOContext)
 
   // Load all data when loading the page
@@ -22,6 +25,7 @@ const WIFO = () => {
         <Header />
         <Map />
       </div>
+	    <CookieModal />
     </Hub>
   );
 }
